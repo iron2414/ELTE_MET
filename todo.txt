@@ -1,0 +1,1 @@
+adatbazis modell, kepernyo tervek + use case-ek
