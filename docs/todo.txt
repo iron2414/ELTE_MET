@@ -1,1 +1,3 @@
-adatbazis modell, kepernyo tervek + use case-ek
+2018.10.04 -> adatbazis modell, kepernyo tervek + use case-ek
+
+2018.10.10 -> tobbi uml vackot bacsival megbeszelni, hogy mit szeretne
