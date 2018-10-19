@@ -1,3 +1,5 @@
 2018.10.04 -> adatbazis modell, kepernyo tervek + use case-ek
 
 2018.10.10 -> tobbi uml vackot bacsival megbeszelni, hogy mit szeretne
+
+2018.10.19 -> megcsinaltam leirasokat, meg kijavitottam a use caseekben amit mondott a bacsi, kellene meg par UI terv azokat megcsinalom, legyszi olvassatok el amiket irtam, hogy kb jo lesz e atraktam world-be a doksit pagesrol mert azt ti nem tudnatok szerkeszteni kiveve matet mert neki is macje van. Szoval ha valami nem okes valahol feel free to kijavitani
