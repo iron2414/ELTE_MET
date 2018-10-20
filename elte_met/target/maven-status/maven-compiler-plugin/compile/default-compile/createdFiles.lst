@@ -1,0 +1,4 @@
+app\entity\QSubject.class
+app\entity\QPermission.class
+app\entity\QGroup.class
+app\entity\QUser.class

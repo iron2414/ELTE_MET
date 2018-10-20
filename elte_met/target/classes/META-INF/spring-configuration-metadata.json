@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "config.ThreadConfig",
+      "name": "taskexecutor",
+      "type": "config.ThreadConfig"
+    }
+  ],
+  "properties": []
+}
