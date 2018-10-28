@@ -11,19 +11,20 @@ import org.springframework.stereotype.Repository;
 
 
 @Repository
-public interface SubjectRepository extends JpaRepository<User, Long> , QuerydslPredicateExecutor<User>, QuerydslBinderCustomizer<QUser> {
-    User findByUsername(String username);
-    User findById(Integer id);
+public interface SubjectRepository extends JpaRepository<Subject, Long> , QuerydslPredicateExecutor<Subject>,
+        QuerydslBinderCustomizer<QSubject> {
+    Subject findById(Integer id);
+
 
 
     @Override
     default public void customize(
-            QuerydslBindings bindings, QUser root) {
+            QuerydslBindings bindings, QSubject root) {
         bindings.bind(String.class)
                 .first((SingleValueBinding<StringPath, String>) StringExpression::containsIgnoreCase);
     }
 
-    public static User findUser(String id) {
-        return UserRepositoryImpl.findUser(id);
+    public static Subject findSubject(String id) {
+        return SubjectRepositoryImpl.findSubject(id);
     }
 }

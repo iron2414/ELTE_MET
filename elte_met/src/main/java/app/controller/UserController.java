@@ -34,7 +34,7 @@ public class UserController {
 
 
     @JsonRequestMapping(path="/user/{id}")
-    @PreAuthorize("hasRole('ROLE_PERM')")
+    //@PreAuthorize("hasRole('ROLE_PERM')")
     public @ResponseBody ResponseEntity<Object> getUser( @PathVariable("id") User user) {
         try {
             if(null == user) {
@@ -67,7 +67,7 @@ public class UserController {
     }
 
 	@JsonRequestMapping(path = "/users")
-    public @ResponseBody ResponseEntity<Object> search(@RequestParam(value = "search",required = false) String search, Pageable pageable) {
+    public @ResponseBody ResponseEntity<Object> cgetUser(@RequestParam(value = "search",required = false) String search, Pageable pageable) {
         PredicatesBuilder builder = new PredicatesBuilder<User>(User.class);
         BooleanExpression exp = filter(builder,search);
 

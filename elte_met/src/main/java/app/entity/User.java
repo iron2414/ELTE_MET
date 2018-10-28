@@ -19,35 +19,41 @@ public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    @JsonIgnore
     @Column(name = "name", length = 100, nullable = false)
     private String name;
-
+    @JsonIgnore
     @Column(name = "username", length = 100, unique = true, nullable = false)
     private String username;
-
+    @JsonIgnore
     @Column(name = "phone_number", length = 100)
     private String phoneNumber;
-
+    @JsonIgnore
     @Column(unique = true, length = 100, nullable = false)
     private String email;
+
 
     @Column(name = "password", length = 100, nullable = false)
     @JsonIgnore
     private String password;
 
+    @JsonIgnore
     @Column(name = "last_login", columnDefinition = "DATETIME")
     private Date lastLogin;
 
+    @JsonIgnore
     @Column(name = "is_enabled", columnDefinition = "tinyint(1) default 0", nullable = false)
     private Boolean isEnabled;
 
+    @JsonIgnore
     @Column(name = "is_super_admin", columnDefinition = "tinyint(1) default 0", nullable = false)
     private Boolean isSuperAdmin;
 
+    @JsonIgnore
     @Column(name = "deleted_at", columnDefinition = "DATETIME")
     private Date deletedAt;
 
+    @JsonIgnore
     @ManyToMany(fetch = FetchType.LAZY,
             cascade = {
                     CascadeType.PERSIST,
@@ -57,6 +63,12 @@ public class User implements UserDetails {
             joinColumns = {@JoinColumn(name = "user_id")},
             inverseJoinColumns = {@JoinColumn(name = "group_id")})
     private Set<Group> groups = new HashSet<>();
+
+    @JsonIgnore
+    @OneToMany(cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY,
+            mappedBy = "lecturer")
+    private Set<Subject> subjects = new HashSet<>();
 
 
     public Long getId() {
@@ -166,6 +178,18 @@ public class User implements UserDetails {
             }
         }
         return result;
+    }
+
+    public Set<Subject> getSubjects() {
+        return subjects;
+    }
+
+    public void addSubject(Subject subject) {
+        this.getSubjects().add(subject);
+    }
+
+    public void removeSubject(Subject subject) {
+        this.getSubjects().remove(subject);
     }
 
     @Override

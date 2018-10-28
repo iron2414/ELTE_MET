@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="f11d966b-74ec-403c-ac40-0d684a13cd35" name="Default" comment="" />
+    <list default="true" readonly="true" id="f11d966b-74ec-403c-ac40-0d684a13cd35" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/ELTE_MET.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/trunk.iml" afterPath="$PROJECT_DIR$/.idea/trunk.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/SecurityController.java" afterPath="$PROJECT_DIR$/src/main/java/app/controller/SecurityController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" afterPath="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/app/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepositoryImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" afterPath="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/SecurityController.class" afterPath="$PROJECT_DIR$/target/classes/app/controller/SecurityController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/app/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QSubject.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QSubject.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QUser.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Subject.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Subject.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubject.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubject.java" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QUser.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QUser.java" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,12 +130,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="203">
               <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubjectRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,11 +157,77 @@
       <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="17" column="128" lean-forward="false" selection-start-line="17" selection-start-column="128" selection-end-line="17" selection-end-column="128" />
+            <state relative-caret-position="272">
+              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubjectController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubjectForm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="57" column="23" lean-forward="false" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SecurityController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CsrfGrantingFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/config/CsrfGrantingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,83 +235,11 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="56" column="69" lean-forward="false" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TempController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/TempController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="53" column="41" lean-forward="false" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomUsernamePasswordAuthenticationFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/CustomUsernamePasswordAuthenticationFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="74" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppErrorController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/AppErrorController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="85" column="44" lean-forward="false" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthenticationProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/authentication/AuthenticationProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RESTAuthenticationEntryPoint.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/authentication/RESTAuthenticationEntryPoint.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/SecurityConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="70" column="58" lean-forward="false" selection-start-line="70" selection-start-column="58" selection-end-line="71" selection-end-column="95" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -217,13 +255,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ch</find>
-      <find>getHalal</find>
-      <find>r</find>
-      <find>Chann</find>
-      <find>ELSE ÁG</find>
-      <find>hasTask = false</find>
-      <find>extends</find>
       <find>freeChannels.add</find>
       <find>executor</find>
       <find>sleep</find>
@@ -247,6 +278,13 @@
       <find>gds</find>
       <find>authenticated</find>
       <find>password</find>
+      <find>getSubject</find>
+      <find>@JsonIgnore</find>
+      <find>User</find>
+      <find>userRepository.find</find>
+      <find>userRepository</find>
+      <find>cgetAction</find>
+      <find>jackson.core</find>
     </findStrings>
     <dirStrings>
       <dir>Y:\workspace\gdsgui-java\trunk\src\main\java\app\entity</dir>
@@ -259,7 +297,11 @@
       <dir>C:\Users\iron2414\Desktop\Projects\ELTE_MET\gdsgui-java</dir>
       <dir>C:\Users\iron2414\Desktop\Projects\ELTE_MET\gdsgui-java\src\main</dir>
       <dir>C:\Users\iron2414\Desktop\Projects\ELTE_MET\gdsgui-java\src\main\java\config</dir>
+      <dir>C:\Users\iron2414\Desktop\Projects\ELTE_MET\elte_met\src\main\java</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -269,14 +311,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/config/WebConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/authentication/AuthenticationProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/jpa/C2Criteria.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/jpa/CustomerSpecification.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/MyUserPredicate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/MyUserPredicatesBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/SearchCriteria.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/AppConf.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/AppErrorController.java" />
@@ -311,15 +345,23 @@
         <option value="$PROJECT_DIR$/src/main/java/util/Response/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/exception/UserNotFoundException.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/authentication/RESTAuthenticationSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/form/UserForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/SecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/TempController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/UserRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/SecurityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Form/Form.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/User.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" />
       </list>
     </option>
   </component>
@@ -358,6 +400,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -397,6 +440,35 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="elte_met" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elte_met" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elte_met" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elte_met" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elte_met" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elte_met" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elte_met" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elte_met" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -443,17 +515,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="elte_met" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elte_met" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,7 +523,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="AppErrorControllerű&#9;PSI&#9;JAVA://util.AppErrorController&#10;pom.x&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/gdsgui-java/pom.xml&#10;UserRepo&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/gdsgui-java/src/main/java/app/entity/UserRepository.java&#10;Application&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCont&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;pom&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/pom.xml&#10;Applicat&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCon&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;pom.xml&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/pom.xml&#10;PageNotFoundEx&#9;PSI&#9;JAVA://exception.PageNotFoundException&#10;UserController&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;UserReposi&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/UserRepository.java&#10;QuerydslPredicateArgumentResolver&#9;PSI&#9;JAVA://org.springframework.data.web.querydsl.QuerydslPredicateArgumentResolver&#10;Permission&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/Permission.java" />
+    <property name="SearchEverywhereHistoryKey" value="SubjectForm&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/form/SubjectForm.java&#10;pom.xml&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/pom.xml&#10;AppErrorControllerű&#9;PSI&#9;JAVA://util.AppErrorController&#10;pom.x&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/gdsgui-java/pom.xml&#10;UserRepo&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/gdsgui-java/src/main/java/app/entity/UserRepository.java&#10;Application&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCont&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;pom&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/pom.xml&#10;Applicat&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCon&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;PageNotFoundEx&#9;PSI&#9;JAVA://exception.PageNotFoundException&#10;UserController&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;UserReposi&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/UserRepository.java&#10;QuerydslPredicateArgumentResolver&#9;PSI&#9;JAVA://org.springframework.data.web.querydsl.QuerydslPredicateArgumentResolver&#10;Permission&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/Permission.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535718260220" />
@@ -472,13 +533,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="Y:\workspace\gdsgui-java\trunk\src\main\resources\Client\node_modules\typescript\lib" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="app.form" />
       <recent name="app.controller" />
       <recent name="app.entity" />
       <recent name="config" />
@@ -711,19 +773,22 @@
       <workItem from="1540056513325" duration="981000" />
       <workItem from="1540057558468" duration="66000" />
       <workItem from="1540059005812" duration="486000" />
-      <workItem from="1540078849009" duration="67000" />
+      <workItem from="1540078849009" duration="410000" />
+      <workItem from="1540649904256" duration="1770000" />
+      <workItem from="1540728117327" duration="8360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160540000" />
+    <option name="totallyTimeSpent" value="171013000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.303233" sideWeight="0.29744136" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3489409" sideWeight="0.30810234" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10554371" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -732,18 +797,20 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39822024" sideWeight="0.9104478" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.4946695" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.303233" sideWeight="0.70255864" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3489409" sideWeight="0.69189763" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.4989339" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.49946696" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34488273" sideWeight="0.712" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.49946696" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2835821" sideWeight="0.712" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -752,9 +819,7 @@
       <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.4946695" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -795,46 +860,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.24.Final/netty-all-4.1.24.Final.jar!/io/netty/channel/Channel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Job/GetJob.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.7.RELEASE/spring-aop-5.0.7.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="499" column="0" lean-forward="false" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/socket/WebSocketClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/socket/WebsocketClientEndpoint.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Job/AsyncAddJob.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Job/AddJob.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar!/org/springframework/core/task/TaskExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.24.Final/netty-all-4.1.24.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="195" column="17" lean-forward="false" selection-start-line="195" selection-start-column="17" selection-end-line="195" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/Job/Job.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/nio/channels/CompletionHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/util/Job/AsyncJob.java" />
@@ -868,28 +893,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/config/SocketPoolConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SecurityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Response/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/messages.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -919,65 +922,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="141" column="5" lean-forward="false" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/config/authentication/RESTAuthenticationSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" column="128" lean-forward="false" selection-start-line="17" selection-start-column="128" selection-end-line="17" selection-end-column="128" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/java/app/entity/QUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="56" column="69" lean-forward="false" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/UserForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="74" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -986,13 +934,6 @@
         <state relative-caret-position="349">
           <caret line="51" column="51" lean-forward="false" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/CsrfGrantingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1019,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/config/authentication/AuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1048,7 +981,7 @@
         <state relative-caret-position="561">
           <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1061,10 +994,210 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/UserForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-443">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/java/app/entity/QUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Response/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#235#236#0" expanded="false" />
+            <element signature="e#301#302#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.8.RELEASE/spring-data-commons-2.0.8.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Form/Form.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/UserRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#248#249#0" expanded="false" />
+            <element signature="e#311#312#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/CsrfGrantingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="203">
           <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SecurityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="57" column="23" lean-forward="false" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1122,11 +1255,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|trunk</last-edited>
+          <last-edited>trunk</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

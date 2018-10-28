@@ -1,29 +1,35 @@
 package app.form;
 
+import app.entity.Subject;
 import app.entity.User;
+import app.entity.UserRepository;
 import org.hibernate.validator.constraints.SafeHtml;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
+import javax.swing.text.html.Option;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.Optional;
 
-public class UserForm {
+//TODO a repositoryt nem találja, mert az autowire valamiért nullt-ad, egyelőre controllerben a cucc
+public class SubjectForm {
+
+    @Autowired
+    private UserRepository userRepository;
+
     @NotNull
     @SafeHtml
     @Size(min = 2, max = 30)
     private String name;
 
-    @SafeHtml
-    private String username;
-
-    private String phoneNumber;
-
     @NotNull
-    @Email
-    @Size(min = 2, max = 30)
-    private String email;
+    private Integer credit;
 
-    private Boolean isEnabled;
+    private Long lecturer;
 
     public String getName() {
         return name;
@@ -33,46 +39,26 @@ public class UserForm {
         this.name = name;
     }
 
-    public String getUsername() {
-        return username;
+    public Integer getCredit() {
+        return credit;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setCredit(Integer credit) {
+        this.credit = credit;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public Long getLecturer() {
+        return lecturer;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setLecturer(Long lecturer) {
+        this.lecturer = lecturer;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public Boolean getEnabled() {
-        return isEnabled;
-    }
-
-    public void setEnabled(Boolean enabled) {
-        isEnabled = enabled;
-    }
-
-
-    public User execute() {
-        User user = new User();
-        user.setName(name);
-        user.setUsername(username);
-        user.setPhoneNumber(phoneNumber);
-        user.setEmail(email);
-        user.setEnabled(true);
-        return user;
+    public Subject execute() throws Exception {
+        Subject subject = new Subject();
+        subject.setName(name);
+        subject.setCredit(credit);
+        return subject;
     }
 }

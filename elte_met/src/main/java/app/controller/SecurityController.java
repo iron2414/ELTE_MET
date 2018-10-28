@@ -13,4 +13,16 @@ public class SecurityController {
 	public @ResponseBody ResponseEntity<Object> sessionInit() {
 		return Response.create();
 	}
+
+	public static ResponseEntity<Object> getAction(Object object)
+	{
+		try {
+			if(null == object) {
+				throw new Exception("Entity with this id not found");
+			}
+			return Response.create(object);
+		} catch (Exception e) {
+			return Response.create(e);
+		}
+	}
 }

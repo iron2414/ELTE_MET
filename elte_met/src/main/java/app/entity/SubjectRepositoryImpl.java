@@ -4,9 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public class SubjectRepositoryImpl {
     @Autowired
-    static UserRepository userRepository;
+    static SubjectRepository subjectRepository;
 
-    public static User findUser(String id) {
-        return userRepository.findById(new Integer(id));
+    public static Subject findSubject(String id) {
+        return subjectRepository.findById(new Integer(id));
     }
 }

@@ -1,17 +1,17 @@
 package app.controller;
 
-import app.entity.Permission;
-import app.entity.PermissionRepository;
+import app.entity.Subject;
+import app.entity.SubjectRepository;
 import app.entity.User;
 import app.entity.UserRepository;
-import app.form.UserForm;
+import app.form.SubjectForm;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import exception.ConstraintViolationException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
@@ -21,66 +21,68 @@ import util.Response.Response;
 
 import javax.validation.Valid;
 
+import java.util.Optional;
+
 import static util.Filter.Filter.filter;
 import static util.Form.Form.getErrors;
 import static util.Form.Form.isValid;
 
 @Controller
-@RequestMapping(path="/user")
+@RequestMapping(path="/subject")
 public class SubjectController {
 	@Autowired
-	private UserRepository userRepository;
+	private SubjectRepository subjectRepository;
     @Autowired
-    private PermissionRepository permissionRepository;
-    @Autowired
-    private PasswordEncoder passwordEncoder;
+    private UserRepository userRepository;
 
 
-    @JsonRequestMapping(path="/user/{id}")
-    @PreAuthorize("hasRole('ROLE_PERM')")
-    public @ResponseBody ResponseEntity<Object> getUser( @PathVariable("id") User user) {
-        try {
-            if(null == user) {
-                //TODO BusinessLogic Exception
-                throw new Exception("Entity with this id not found");
-            }
-            return Response.create(user);
-        } catch (Exception e) {
-            return Response.create(e);
-        }
+
+	//TODO Subject convert does not work, it works in User, check the difference
+    @JsonRequestMapping(path="/subject/{id}")
+    //@PreAuthorize("hasRole('ROLE_SUBJECT_GET')")
+    public @ResponseBody ResponseEntity<Object> getAction( @PathVariable("id") Subject subject) {
+        return SecurityController.getAction(subject);
     }
-        
-    @JsonRequestMapping(path = "/users", method = RequestMethod.POST)
+
+
+    //TODO szar a serializer
+    //@PreAuthorize("hasRole('ROLE_SUBJECT_LIST')")
+    @JsonRequestMapping(path = "/subjects")
+    public @ResponseBody ResponseEntity<Object> cgetAction(@RequestParam(value = "search",required = false) String search, Pageable pageable) {
+        PredicatesBuilder builder = new PredicatesBuilder<Subject>(Subject.class);
+        BooleanExpression exp = filter(builder,search);
+        Page<Subject> all = subjectRepository.findAll(exp, pageable);
+        return Response.create(all);
+    }
+
+    //TODO Subject convert does not work, it works in User, check the difference
+    @JsonRequestMapping(path="/subject/{id}", method = RequestMethod.DELETE)
+    //@PreAuthorize("hasRole('ROLE_SUBJECT_DELETE')")
+    public @ResponseBody ResponseEntity<Object> deleteAction( @PathVariable("id") Subject subject) {
+        subjectRepository.delete(subject);
+        return Response.create();
+    }
+
+    @JsonRequestMapping(path = "/subjects", method = RequestMethod.POST)
     @ResponseBody
-    public ResponseEntity<Object> postUser(@RequestBody @Valid UserForm form,
+    //@PreAuthorize("hasRole('ROLE_SUBJECT_CREATE')")
+    public ResponseEntity<Object> postAction(@RequestBody @Valid SubjectForm form,
                                                      BindingResult result) throws ConstraintViolationException {
         try {
             if(isValid(result)) {
-                User user = form.execute();
-                user.setPassword(passwordEncoder.encode("aA112233"));
-                user.setEnabled(true);
-                user.setSuperAdmin(true);
-                userRepository.save(user);
-                return Response.create(user);
+                Subject subject = form.execute();
+                //TODO átteni formba
+                Optional<User> user =userRepository.findById(form.getLecturer());
+                if(!user.isPresent()) {
+                    throw new Exception("Lecturer not found");
+                }
+                subject.setLecturer(user.get());
+                subjectRepository.save(subject);
+                return Response.create();
             }
             return Response.create(getErrors(result));
         } catch (Exception ex) {
             return Response.create(ex);
         }
-    }
-
-	@JsonRequestMapping(path = "/users")
-    public @ResponseBody ResponseEntity<Object> cgetUser(@RequestParam(value = "search",required = false) String search, Pageable pageable) {
-        PredicatesBuilder builder = new PredicatesBuilder<User>(User.class);
-        BooleanExpression exp = filter(builder,search);
-
-        return Response.create(userRepository.findAll(exp,pageable));
-    }
-
-    @JsonRequestMapping(path = "/permissions")
-    public @ResponseBody ResponseEntity<Object> searchPerm(@RequestParam(value = "search",required = false) String search, Pageable pageable) {
-        PredicatesBuilder builder = new PredicatesBuilder<Permission>(Permission.class);
-        BooleanExpression exp =  filter(builder,search);
-        return Response.create(permissionRepository.findAll(exp,pageable));
     }
 }

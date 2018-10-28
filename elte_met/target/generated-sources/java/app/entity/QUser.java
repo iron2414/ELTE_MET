@@ -40,6 +40,8 @@ public class QUser extends EntityPathBase<User> {
 
     public final StringPath phoneNumber = createString("phoneNumber");
 
+    public final SetPath<Subject, QSubject> subjects = this.<Subject, QSubject>createSet("subjects", Subject.class, QSubject.class, PathInits.DIRECT2);
+
     public final StringPath username = createString("username");
 
     public QUser(String variable) {
