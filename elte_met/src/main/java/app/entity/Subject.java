@@ -19,7 +19,7 @@ public class Subject {
     @Column(name = "credit", nullable = false)
     private Integer credit;
 
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
     @JoinColumn(name = "lecturer_id", nullable = false)
     private User lecturer;
 

@@ -28,7 +28,7 @@ import static util.Form.Form.getErrors;
 import static util.Form.Form.isValid;
 
 @Controller
-@RequestMapping(path="/subject")
+@RequestMapping(path="/temp")
 public class SubjectController {
 	@Autowired
 	private SubjectRepository subjectRepository;
@@ -44,8 +44,7 @@ public class SubjectController {
         return SecurityController.getAction(subject);
     }
 
-
-    //TODO szar a serializer
+    
     //@PreAuthorize("hasRole('ROLE_SUBJECT_LIST')")
     @JsonRequestMapping(path = "/subjects")
     public @ResponseBody ResponseEntity<Object> cgetAction(@RequestParam(value = "search",required = false) String search, Pageable pageable) {
