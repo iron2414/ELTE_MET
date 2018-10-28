@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f11d966b-74ec-403c-ac40-0d684a13cd35" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jolokia_jolokia_core_1_5_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_0_7_RELEASE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/trunk.iml" afterPath="$PROJECT_DIR$/.idea/trunk.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" afterPath="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" afterPath="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/UserRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/UserRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -164,15 +153,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="134" />
+            <state relative-caret-position="408">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1227#1228#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1081#1082#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,12 +177,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubjectController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SubjectController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-744">
-              <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-              <folding />
+            <state relative-caret-position="395">
+              <caret line="80" column="43" lean-forward="false" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -333,11 +324,11 @@
         <option value="$PROJECT_DIR$/src/main/java/util/Form/Form.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/app/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java" />
       </list>
     </option>
   </component>
@@ -534,7 +525,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="pom.xml&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/pom.xml&#10;TempCon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/TempController.java&#10;SubjectForm&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/form/SubjectForm.java&#10;AppErrorControllerű&#9;PSI&#9;JAVA://util.AppErrorController&#10;pom.x&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/gdsgui-java/pom.xml&#10;UserRepo&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/gdsgui-java/src/main/java/app/entity/UserRepository.java&#10;Application&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCont&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;pom&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/pom.xml&#10;Applicat&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCon&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;PageNotFoundEx&#9;PSI&#9;JAVA://exception.PageNotFoundException&#10;UserController&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;UserReposi&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/UserRepository.java&#10;QuerydslPredicateArgumentResolver&#9;PSI&#9;JAVA://org.springframework.data.web.querydsl.QuerydslPredicateArgumentResolver&#10;Permission&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/Permission.java" />
+    <property name="SearchEverywhereHistoryKey" value="UserRep&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/entity/UserRepository.java&#10;pom.xml&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/pom.xml&#10;TempCon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/TempController.java&#10;SubjectForm&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/form/SubjectForm.java&#10;AppErrorControllerű&#9;PSI&#9;JAVA://util.AppErrorController&#10;pom.x&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/gdsgui-java/pom.xml&#10;UserRepo&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/gdsgui-java/src/main/java/app/entity/UserRepository.java&#10;Application&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCont&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;pom&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/pom.xml&#10;Applicat&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCon&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;PageNotFoundEx&#9;PSI&#9;JAVA://exception.PageNotFoundException&#10;UserController&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;UserReposi&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/UserRepository.java&#10;QuerydslPredicateArgumentResolver&#9;PSI&#9;JAVA://org.springframework.data.web.querydsl.QuerydslPredicateArgumentResolver&#10;Permission&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/Permission.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535718260220" />
@@ -788,12 +779,12 @@
       <workItem from="1540649904256" duration="1770000" />
       <workItem from="1540728117327" duration="13647000" />
       <workItem from="1540742838495" duration="888000" />
-      <workItem from="1540744340232" duration="1906000" />
+      <workItem from="1540744340232" duration="2057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179094000" />
+    <option name="totallyTimeSpent" value="179245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1291,18 +1282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="134" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -1348,9 +1327,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-744">
-          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="395">
+          <caret line="80" column="43" lean-forward="false" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
