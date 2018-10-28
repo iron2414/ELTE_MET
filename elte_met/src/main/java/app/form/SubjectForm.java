@@ -5,22 +5,11 @@ import app.entity.User;
 import app.entity.UserRepository;
 import org.hibernate.validator.constraints.SafeHtml;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
-
-import javax.swing.text.html.Option;
-import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.Optional;
 
-//TODO a repositoryt nem találja, mert az autowire valamiért nullt-ad, egyelőre controllerben a cucc
 public class SubjectForm {
-
-    @Autowired
-    private UserRepository userRepository;
-
     @NotNull
     @SafeHtml
     @Size(min = 2, max = 30)
@@ -55,7 +44,7 @@ public class SubjectForm {
         this.lecturer = lecturer;
     }
 
-    public Subject execute() throws Exception {
+    public Subject execute() {
         Subject subject = new Subject();
         subject.setName(name);
         subject.setCredit(credit);

@@ -1,5 +1,6 @@
 util\Response\FormResponse$Form.class
 config\SecurityConfiguration.class
+META-INF\spring-configuration-metadata.json
 app\controller\UserController.class
 util\Response\Response.class
 util\Form\Form.class

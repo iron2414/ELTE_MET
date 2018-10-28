@@ -28,36 +28,36 @@ import static util.Form.Form.getErrors;
 import static util.Form.Form.isValid;
 
 @Controller
-@RequestMapping(path="/temp")
+@RequestMapping(path = "/subject")
 public class SubjectController {
-	@Autowired
-	private SubjectRepository subjectRepository;
+    @Autowired
+    private SubjectRepository subjectRepository;
     @Autowired
     private UserRepository userRepository;
 
 
-
-	//TODO Subject convert does not work, it works in User, check the difference
-    @JsonRequestMapping(path="/subject/{id}")
+    @JsonRequestMapping(path = "/subject/{id}")
     //@PreAuthorize("hasRole('ROLE_SUBJECT_GET')")
-    public @ResponseBody ResponseEntity<Object> getAction( @PathVariable("id") Subject subject) {
+    public @ResponseBody
+    ResponseEntity<Object> getAction(@PathVariable("id") Subject subject) {
         return SecurityController.getAction(subject);
     }
 
-    
-    //@PreAuthorize("hasRole('ROLE_SUBJECT_LIST')")
+
     @JsonRequestMapping(path = "/subjects")
-    public @ResponseBody ResponseEntity<Object> cgetAction(@RequestParam(value = "search",required = false) String search, Pageable pageable) {
+    //@PreAuthorize("hasRole('ROLE_SUBJECT_LIST')")
+    public @ResponseBody
+    ResponseEntity<Object> cgetAction(@RequestParam(value = "search", required = false) String search, Pageable pageable) {
         PredicatesBuilder builder = new PredicatesBuilder<Subject>(Subject.class);
-        BooleanExpression exp = filter(builder,search);
+        BooleanExpression exp = filter(builder, search);
         Page<Subject> all = subjectRepository.findAll(exp, pageable);
         return Response.create(all);
     }
 
-    //TODO Subject convert does not work, it works in User, check the difference
-    @JsonRequestMapping(path="/subject/{id}", method = RequestMethod.DELETE)
+    @JsonRequestMapping(path = "/subject/{id}", method = RequestMethod.DELETE)
     //@PreAuthorize("hasRole('ROLE_SUBJECT_DELETE')")
-    public @ResponseBody ResponseEntity<Object> deleteAction( @PathVariable("id") Subject subject) {
+    public @ResponseBody
+    ResponseEntity<Object> deleteAction(@PathVariable("id") Subject subject) {
         subjectRepository.delete(subject);
         return Response.create();
     }
@@ -66,13 +66,12 @@ public class SubjectController {
     @ResponseBody
     //@PreAuthorize("hasRole('ROLE_SUBJECT_CREATE')")
     public ResponseEntity<Object> postAction(@RequestBody @Valid SubjectForm form,
-                                                     BindingResult result) throws ConstraintViolationException {
+                                             BindingResult result) throws ConstraintViolationException {
         try {
-            if(isValid(result)) {
+            if (isValid(result)) {
                 Subject subject = form.execute();
-                //TODO átteni formba
-                Optional<User> user =userRepository.findById(form.getLecturer());
-                if(!user.isPresent()) {
+                Optional<User> user = userRepository.findById(form.getLecturer());
+                if (!user.isPresent()) {
                     throw new Exception("Lecturer not found");
                 }
                 subject.setLecturer(user.get());
