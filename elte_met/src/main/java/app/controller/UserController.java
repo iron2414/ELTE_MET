@@ -23,21 +23,22 @@ import static util.Form.Form.getErrors;
 import static util.Form.Form.isValid;
 
 @Controller
-@RequestMapping(path="/user")
+@RequestMapping(path = "/user")
 public class UserController {
-	@Autowired
-	private UserRepository userRepository;
+    @Autowired
+    private UserRepository userRepository;
     @Autowired
     private PermissionRepository permissionRepository;
     @Autowired
     private PasswordEncoder passwordEncoder;
 
 
-    @JsonRequestMapping(path="/user/{id}")
-    //@PreAuthorize("hasRole('ROLE_PERM')")
-    public @ResponseBody ResponseEntity<Object> getUser( @PathVariable("id") User user) {
+    @JsonRequestMapping(path = "/user/{id}")
+    //@PreAuthorize("hasRole('ROLE_USER_GET')")
+    public @ResponseBody
+    ResponseEntity<Object> getAction(@PathVariable("id") User user) {
         try {
-            if(null == user) {
+            if (null == user) {
                 //TODO BusinessLogic Exception
                 throw new Exception("Entity with this id not found");
             }
@@ -46,13 +47,14 @@ public class UserController {
             return Response.create(e);
         }
     }
-        
+
     @JsonRequestMapping(path = "/users", method = RequestMethod.POST)
     @ResponseBody
-    public ResponseEntity<Object> postUser(@RequestBody @Valid UserForm form,
-                                                     BindingResult result) throws ConstraintViolationException {
+    //@PreAuthorize("hasRole('ROLE_USER_CREATE')")
+    public ResponseEntity<Object> postAction(@RequestBody @Valid UserForm form,
+                                             BindingResult result) throws ConstraintViolationException {
         try {
-            if(isValid(result)) {
+            if (isValid(result)) {
                 User user = form.execute();
                 user.setPassword(passwordEncoder.encode("aA112233"));
                 user.setEnabled(true);
@@ -66,18 +68,46 @@ public class UserController {
         }
     }
 
-	@JsonRequestMapping(path = "/users")
-    public @ResponseBody ResponseEntity<Object> cgetUser(@RequestParam(value = "search",required = false) String search, Pageable pageable) {
+    @JsonRequestMapping(path = "/users")
+    //@PreAuthorize("hasRole('ROLE_USER_LIST')")
+    public @ResponseBody
+    ResponseEntity<Object> cgetAction(@RequestParam(value = "search", required = false) String search, Pageable pageable) {
         PredicatesBuilder builder = new PredicatesBuilder<User>(User.class);
-        BooleanExpression exp = filter(builder,search);
+        BooleanExpression exp = filter(builder, search);
 
-        return Response.create(userRepository.findAll(exp,pageable));
+        return Response.create(userRepository.findAll(exp, pageable));
     }
 
+    @JsonRequestMapping(path = "/user/{id}", method = RequestMethod.DELETE)
+    //@PreAuthorize("hasRole('ROLE_USER_DELETE')")
+    public @ResponseBody
+    ResponseEntity<Object> deleteAction(@PathVariable("id") User user) {
+        userRepository.delete(user);
+        return Response.create();
+    }
+
+    @JsonRequestMapping(path = "/user/{id}", method = RequestMethod.PUT)
+    @ResponseBody
+    //@PreAuthorize("hasRole('ROLE_USER_UPDATE')")
+    public ResponseEntity<Object> putAction(@RequestBody @Valid UserForm form, @PathVariable("id") User user,
+                                            BindingResult result) throws ConstraintViolationException {
+        try {
+            if (isValid(result)) {
+                userRepository.save(user);
+                return Response.create(user);
+            }
+            return Response.create(getErrors(result));
+        } catch (Exception ex) {
+            return Response.create(ex);
+        }
+    }
+
+    //TODO Permission controller
     @JsonRequestMapping(path = "/permissions")
-    public @ResponseBody ResponseEntity<Object> searchPerm(@RequestParam(value = "search",required = false) String search, Pageable pageable) {
+    public @ResponseBody
+    ResponseEntity<Object> searchPerm(@RequestParam(value = "search", required = false) String search, Pageable pageable) {
         PredicatesBuilder builder = new PredicatesBuilder<Permission>(Permission.class);
-        BooleanExpression exp =  filter(builder,search);
-        return Response.create(permissionRepository.findAll(exp,pageable));
+        BooleanExpression exp = filter(builder, search);
+        return Response.create(permissionRepository.findAll(exp, pageable));
     }
 }
