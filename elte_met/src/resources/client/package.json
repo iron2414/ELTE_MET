@@ -13,10 +13,10 @@
     "typescript": "3.1.6"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "tcm": "tcm -p ./src/**/*.css --camelCase --watch"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,5 +26,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@types/webpack": "^4.4.18",
+    "react-app-rewired": "^1.6.2",
+    "typed-css-modules": "^0.3.7"
+  }
 }

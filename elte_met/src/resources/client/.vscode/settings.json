@@ -1,0 +1,24 @@
+{
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.css.d.ts": true
+    }
+}
