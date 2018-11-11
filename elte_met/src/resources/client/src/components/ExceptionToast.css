@@ -1,0 +1,18 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    margin: 10px;
+    padding: 5px;
+}
+
+.root p {
+    margin: 0.3em 0.15em;
+}
+
+.root .trace {
+    /* width: 100%; */
+    white-space: pre-wrap;
+    height: 50px;
+    overflow: scroll;
+}
