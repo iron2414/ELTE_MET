@@ -63,7 +63,7 @@ export class ElteMetApi {
             headers: {
                 "Content-Type": "application/json",
                 Accept: "application/json",
-                "XSRF-TOKEN": token || "",
+                "X-CSRF-TOKEN": token || "",
             },
             body: body && JSON.stringify(body),
         })).json();
