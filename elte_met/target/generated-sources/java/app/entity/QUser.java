@@ -20,7 +20,15 @@ public class QUser extends EntityPathBase<User> {
 
     public static final QUser user = new QUser("user");
 
+    public final StringPath bankAccountNumber = createString("bankAccountNumber");
+
+    public final DateTimePath<java.util.Date> dateOfBirth = createDateTime("dateOfBirth", java.util.Date.class);
+
+    public final StringPath degree = createString("degree");
+
     public final DateTimePath<java.util.Date> deletedAt = createDateTime("deletedAt", java.util.Date.class);
+
+    public final SetPath<Document, QDocument> documents = this.<Document, QDocument>createSet("documents", Document.class, QDocument.class, PathInits.DIRECT2);
 
     public final StringPath email = createString("email");
 
@@ -36,13 +44,19 @@ public class QUser extends EntityPathBase<User> {
 
     public final StringPath name = createString("name");
 
+    public final StringPath nationality = createString("nationality");
+
     public final StringPath password = createString("password");
 
     public final StringPath phoneNumber = createString("phoneNumber");
 
-    public final SetPath<Subject, QSubject> subjects = this.<Subject, QSubject>createSet("subjects", Subject.class, QSubject.class, PathInits.DIRECT2);
+    public final SetPath<Practice, QPractice> practices = this.<Practice, QPractice>createSet("practices", Practice.class, QPractice.class, PathInits.DIRECT2);
+
+    public final StringPath taxNumber = createString("taxNumber");
 
     public final StringPath username = createString("username");
+
+    public final NumberPath<Integer> whichSemester = createNumber("whichSemester", Integer.class);
 
     public QUser(String variable) {
         super(User.class, forVariable(variable));

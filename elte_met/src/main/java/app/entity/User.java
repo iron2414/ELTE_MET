@@ -41,6 +41,24 @@ public class User implements UserDetails {
     @Column(name = "last_login", columnDefinition = "DATETIME")
     private Date lastLogin;
 
+    @Column(name = "date_of_birth", columnDefinition = "DATETIME", nullable = false)
+    private Date dateOfBirth;
+
+    @Column(name = "which_semester", nullable = false)
+    private Integer whichSemester;
+
+    @Column(name = "nationality", length = 25, nullable = false)
+    private String nationality;
+
+    @Column(name = "bank_account_number", length = 20, nullable = false, unique = true)
+    private String bankAccountNumber;
+
+    @Column(name = "tax_number", length = 20, nullable = false, unique = true)
+    private String taxNumber;
+
+    @Column(name = "degree", length = 4, nullable = false)
+    private String degree;
+
     @JsonIgnore
     @Column(name = "is_enabled", columnDefinition = "tinyint(1) default 0", nullable = false)
     private Boolean isEnabled;
@@ -64,11 +82,18 @@ public class User implements UserDetails {
             inverseJoinColumns = {@JoinColumn(name = "group_id")})
     private Set<Group> groups = new HashSet<>();
 
+
     @JsonIgnore
     @OneToMany(cascade = CascadeType.ALL,
             fetch = FetchType.LAZY,
-            mappedBy = "lecturer")
-    private Set<Subject> subjects = new HashSet<>();
+            mappedBy = "uploader")
+    private Set<Document> documents = new HashSet<>();
+
+    @JsonIgnore
+    @OneToMany(cascade = CascadeType.ALL,
+            fetch = FetchType.LAZY,
+            mappedBy = "teacher")
+    private Set<Practice> practices = new HashSet<>();
 
 
     public Long getId() {
@@ -89,7 +114,7 @@ public class User implements UserDetails {
 
     @Override
     public String getUsername() {
-        return username;
+        return this.username;
     }
 
     public void setUsername(String username) {
@@ -180,16 +205,16 @@ public class User implements UserDetails {
         return result;
     }
 
-    public Set<Subject> getSubjects() {
-        return subjects;
+    public Set<Document> getDocuments() {
+        return documents;
     }
 
-    public void addSubject(Subject subject) {
-        this.getSubjects().add(subject);
+    public void addDocument(Document document) {
+        this.getDocuments().add(document);
     }
 
-    public void removeSubject(Subject subject) {
-        this.getSubjects().remove(subject);
+    public void removeDocument(Document document) {
+        this.getDocuments().remove(document);
     }
 
     @Override
@@ -217,4 +242,67 @@ public class User implements UserDetails {
         return isEnabled;
     }
 
+    public Date getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public void setDateOfBirth(Date dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    public Integer getWhichSemester() {
+        return whichSemester;
+    }
+
+    public void setWhichSemester(Integer whichSemester) {
+        this.whichSemester = whichSemester;
+    }
+
+    public String getNationality() {
+        return nationality;
+    }
+
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
+    }
+
+    public String getBankAccountNumber() {
+        return bankAccountNumber;
+    }
+
+    public void setBankAccountNumber(String bankAccountNumber) {
+        this.bankAccountNumber = bankAccountNumber;
+    }
+
+    public String getTaxNumber() {
+        return taxNumber;
+    }
+
+    public void setTaxNumber(String taxNumber) {
+        this.taxNumber = taxNumber;
+    }
+
+    public String getDegree() {
+        return degree;
+    }
+
+    public void setDegree(String degree) {
+        this.degree = degree;
+    }
+
+    public void setGroups(Set<Group> groups) {
+        this.groups = groups;
+    }
+
+    public Set<Practice> getPractices() {
+        return practices;
+    }
+
+    public void addPractice(Practice practice) {
+        this.getPractices().add(practice);
+    }
+
+    public void removePractice(Practice practice) {
+        this.getPractices().remove(practice);
+    }
 }

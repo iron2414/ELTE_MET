@@ -29,6 +29,7 @@ exception\ConstraintViolationException.class
 util\Filter\Filter.class
 config\AppConf.class
 config\authentication\RESTAuthenticationEntryPoint.class
+app\entity\QMessage.class
 app\entity\QSubject.class
 config\authentication\AuthenticationProvider.class
 app\controller\SecurityController.class
@@ -40,12 +41,15 @@ app\entity\Group.class
 exception\InvalidCredentialsException.class
 app\entity\SubjectRepositoryImpl.class
 app\Application.class
+app\entity\QSubjectSemesterTeacher.class
 config\SecurityConfiguration$1.class
 app\entity\PermissionRepository.class
 util\Response\ExceptionResponse$MyException.class
 app\entity\QGroup.class
 app\entity\SubjectRepository.class
 util\JsonRequestMapping.class
+app\entity\QDocument.class
+app\entity\QPractice.class
 util\Filter\PredicatesBuilder.class
 util\Response\FormResponse$Message.class
 app\entity\QUser.class
@@ -53,4 +57,6 @@ util\AppErrorController$ErrorObject.class
 app\entity\Subject.class
 exception\PageNotFoundException.class
 util\Response\FormResponse.class
+app\entity\Document.class
+app\entity\QExam.class
 util\Filter\Predicate.class

@@ -74,7 +74,7 @@ public class SubjectController {
                 if (!user.isPresent()) {
                     throw new Exception("Lecturer not found");
                 }
-                subject.setLecturer(user.get());
+                //subject.setLecturer(user.get());
                 subjectRepository.save(subject);
                 return Response.create();
             }
