@@ -1,0 +1,36 @@
+változások:
+
+security_group_permission -> security_group_permission_switch 
+security_user_group -> security_user_group_switch
+
+switch az csak a konvenció miatt lett bele rakva, minden kapcsoló táblánál ott van.
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+user_email_switch -> user_message_switch
+
+ezt még múltkor elfelejtettem átnevezni úgy tűnik.
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+ami volt pes_dds_switch azt a táblát szét kellett bontani 3 kapcsoló táblára, mert nem
+vettem figyelembe pl., hogy bekerülhet a "subject" vagy a "practice" akár az "exam"
+táblából is különböző infó ugyan azzal az IDval. pl
+
+pes_id		dds_id
+______________________
+5		1	// ez pl. a "subject" táblából van és kapcsolódik a dds tábla 1es ID-hoz
+5		1	// ez pl. az "exam" táblából van és kapcsolódik a dds tábla 1es ID-hoz
+5		1	// ez pl. a "practice" táblából van és kapcsolódik a dds tábla 1es ID-hoz
+
+de ezeket nem tudod eldönteni ránézésre, mert ugyan az az ID van többször is 3 különböző 
+táblából. Ezért kellett a pes_dds_switch-et szétdarabolni 3 táblára. Ebőll lettek a
+1.	pratice_dds_switch
+2.	exam_dds_switch
+3.	subject_dds_switch
+
+és így már lekérdezésnél egyértelműen meg lehet határozni, hogy melyik adatot akarod lekérdezni
