@@ -112,3 +112,70 @@ values
     1,
     11
 );
+
+# gyakorlat felvetele 
+insert into practice
+(
+	subject_id,
+    teacher,
+    credit_number,
+    has_tasks,
+    how_many_task
+)
+values
+(
+	2,
+    2,
+    2,
+    0,
+    0
+);
+
+# subject_teacher_teacher
+
+
+insert into subject_semester_teacher
+(
+	subject_id,
+    institution_teacher,
+    starts_in_semester
+)
+values
+(
+	1,
+    "Dmitrij Jakab",
+    "2019/1"
+);
+
+# dds insert 
+insert into dds
+(
+	date_time,
+    durability,
+    how_many_seats
+)
+values
+(
+	timestamp('2018-11-29 11:00:00'),
+    90,
+    25
+);
+
+select 
+	us.name as 'Name',
+    ex.name as 'Exam name',
+    ex.created_by_name as 'Created by',
+    ex.which_room as 'Room number',
+    dds.date_time as 'When',
+    dds.durability as 'How long in (min)',
+    dds.how_many_seats as 'How many seats'
+from user as us
+	inner join user_exam_switch as ues
+		on us.id = ues.user_id
+			inner join exam as ex
+				on ex.id = ues.exam_id
+					inner join exam_dds_switch as eds
+						on ex.id = eds.exam_id
+							inner join dds 
+								on dds.id = eds.dds_id
+
