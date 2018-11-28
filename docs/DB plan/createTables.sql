@@ -73,6 +73,7 @@ CREATE TABLE `myConnection`.`subject_semester_teacher` (
 # create EXAM table
 CREATE TABLE `myConnection`.`exam` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NULL,
   `created_by_name` VARCHAR(40) NULL,
   `which_room` VARCHAR(5) NULL,
   PRIMARY KEY (`id`),

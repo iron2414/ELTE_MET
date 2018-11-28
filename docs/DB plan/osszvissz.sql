@@ -131,9 +131,21 @@ values
     0
 );
 
+# exam tabla beillesztes
+insert into exam 
+(
+    name,
+    created_by_name,
+    which_room
+)
+values
+(
+    "Programozas",
+    "Dmitrij Jakab",
+    "2.502"
+);
+
 # subject_teacher_teacher
-
-
 insert into subject_semester_teacher
 (
 	subject_id,
