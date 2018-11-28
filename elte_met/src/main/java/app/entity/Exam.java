@@ -17,6 +17,9 @@ public class Exam {
     @Column(name = "which_room", length = 5, nullable = false)
     private String whichRoom;
 
+    @Column(name = "name", length = 45, nullable = false)
+    private String name;
+
     public Long getId() {
         return id;
     }
@@ -39,5 +42,13 @@ public class Exam {
 
     public void setWhichRoom(String whichRoom) {
         this.whichRoom = whichRoom;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public setName(String name) {
+        this.name = name;
     }
 }
