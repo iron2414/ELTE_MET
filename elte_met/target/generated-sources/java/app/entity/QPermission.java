@@ -30,8 +30,6 @@ public class QPermission extends EntityPathBase<Permission> {
 
     public final StringPath name = createString("name");
 
-    public final StringPath title = createString("title");
-
     public QPermission(String variable) {
         super(Permission.class, forVariable(variable));
     }

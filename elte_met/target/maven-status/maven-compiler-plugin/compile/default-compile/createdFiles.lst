@@ -31,6 +31,7 @@ config\AppConf.class
 config\authentication\RESTAuthenticationEntryPoint.class
 app\entity\QMessage.class
 app\entity\QSubject.class
+app\entity\QDds.class
 config\authentication\AuthenticationProvider.class
 app\controller\SecurityController.class
 app\entity\QPermission.class

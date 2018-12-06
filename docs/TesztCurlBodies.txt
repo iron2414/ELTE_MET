@@ -1,0 +1,8 @@
+user
+{"name":"TesztPost", "taxNumber":"1786", "degree":"bsc", "phoneNumber":"06304481282", "bankAccountNumber":"7776655544", "email":"abc@def.com", "nationality":"HUN", "username":"TesztPoszt", "isSuperAdmin": 0,
+ "dateOfBirth":"2018-05-12"
+}
+
+
+group
+{"name":"TesztGroup", "description": "TesztGroupDescription"}

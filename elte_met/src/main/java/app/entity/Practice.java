@@ -26,6 +26,9 @@ public class Practice {
     @Column(name = "how_many_task", nullable = false)
     private Integer howManyTask;
 
+    @Column(name = "which_room", length = 5, nullable = false)
+    private String whichRoom;
+
     public Long getId() {
         return id;
     }
@@ -72,5 +75,13 @@ public class Practice {
 
     public void setHowManyTask(Integer howManyTask) {
         this.howManyTask = howManyTask;
+    }
+
+    public String getWhichRoom() {
+        return whichRoom;
+    }
+
+    public void setWhichRoom(String whichRoom) {
+        this.whichRoom = whichRoom;
     }
 }

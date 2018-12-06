@@ -1,0 +1,11 @@
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_USER_GET');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_USER_CREATE');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_USER_LIST');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_USER_DELETE');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_USER_UPDATE');
+
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_GROUP_GET');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_GROUP_CREATE');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_GROUP_LIST');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_GROUP_DELETE');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_GROUP_UPDATE');

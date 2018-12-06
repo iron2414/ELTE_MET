@@ -19,16 +19,16 @@ public class User implements UserDetails {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @JsonIgnore
+
     @Column(name = "name", length = 100, nullable = false)
     private String name;
-    @JsonIgnore
+
     @Column(name = "username", length = 100, unique = true, nullable = false)
     private String username;
-    @JsonIgnore
+
     @Column(name = "phone_number", length = 100)
     private String phoneNumber;
-    @JsonIgnore
+
     @Column(unique = true, length = 100, nullable = false)
     private String email;
 
@@ -37,7 +37,7 @@ public class User implements UserDetails {
     @JsonIgnore
     private String password;
 
-    @JsonIgnore
+
     @Column(name = "last_login", columnDefinition = "DATETIME")
     private Date lastLogin;
 
@@ -63,7 +63,6 @@ public class User implements UserDetails {
     @Column(name = "is_enabled", columnDefinition = "tinyint(1) default 0", nullable = false)
     private Boolean isEnabled;
 
-    @JsonIgnore
     @Column(name = "is_super_admin", columnDefinition = "tinyint(1) default 0", nullable = false)
     private Boolean isSuperAdmin;
 

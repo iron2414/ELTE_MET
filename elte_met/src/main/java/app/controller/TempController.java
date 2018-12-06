@@ -21,6 +21,8 @@ import util.Response.Response;
 
 import javax.validation.Valid;
 
+import java.sql.Date;
+
 import static util.Filter.Filter.filter;
 import static util.Form.Form.getErrors;
 import static util.Form.Form.isValid;
@@ -45,6 +47,12 @@ public class TempController {
             user.setUsername("admin");
             user.setPhoneNumber("12345");
             String email = "iron2414@gmail.com";
+            user.setBankAccountNumber("12314");
+            user.setDateOfBirth(new java.util.Date());
+            user.setDegree("bsc");
+            user.setNationality("HUN");
+            user.setTaxNumber("123456789");
+            user.setWhichSemester(1);
             user.setEmail(email);
             user.setEnabled(true);
             user.setPassword(passwordEncoder.encode("admin"));

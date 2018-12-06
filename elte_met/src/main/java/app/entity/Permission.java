@@ -15,18 +15,15 @@ import java.util.Set;
 public class Permission implements GrantedAuthority {
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
 
     @Column(length = 100, nullable = false)
     private String name;
 
-    @Column(length = 100, nullable = false)
-    private String title;
-
 	@Column(length = 50)
 	private String module;
 
-	@Column(columnDefinition = "TEXT", nullable = false)
+	@Column(columnDefinition = "TEXT", nullable = true)
 	private String description;
 
 	@ManyToMany(fetch = FetchType.LAZY,
@@ -38,12 +35,16 @@ public class Permission implements GrantedAuthority {
 	@JsonIgnore
 	private Set<Group> groups = new HashSet<>();
 
-	public Integer getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(Long id) {
 		this.id = id;
+	}
+
+	public void setGroups(Set<Group> groups) {
+		this.groups = groups;
 	}
 
 	public String getName() {
@@ -52,14 +53,6 @@ public class Permission implements GrantedAuthority {
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public String getTitle() {
-		return title;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
 	}
 
 	public String getModule() {

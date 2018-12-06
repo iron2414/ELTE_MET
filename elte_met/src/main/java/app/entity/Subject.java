@@ -33,6 +33,9 @@ public class Subject {
     @Column(name = "recommended_semester", nullable = false)
     private Integer recommendedSemester;
 
+    @Column(name = "which_room", length = 5, nullable = false)
+    private String whichRoom;
+
     @JsonIgnore
     @OneToMany(cascade = CascadeType.ALL,
             fetch = FetchType.LAZY,
@@ -100,6 +103,14 @@ public class Subject {
 
     public void setRecommendedSemester(Integer recommendedSemester) {
         this.recommendedSemester = recommendedSemester;
+    }
+
+    public String getWhichRoom() {
+        return whichRoom;
+    }
+
+    public void setWhichRoom(String whichRoom) {
+        this.whichRoom = whichRoom;
     }
 
     public Set<Document> getDocuments() {

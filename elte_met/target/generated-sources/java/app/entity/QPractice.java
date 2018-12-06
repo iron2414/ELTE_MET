@@ -34,6 +34,8 @@ public class QPractice extends EntityPathBase<Practice> {
 
     public final QUser teacher;
 
+    public final StringPath whichRoom = createString("whichRoom");
+
     public QPractice(String variable) {
         this(Practice.class, forVariable(variable), INITS);
     }

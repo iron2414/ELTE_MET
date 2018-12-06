@@ -38,6 +38,8 @@ public class QSubject extends EntityPathBase<Subject> {
 
     public final NumberPath<Integer> recommendedSemester = createNumber("recommendedSemester", Integer.class);
 
+    public final StringPath whichRoom = createString("whichRoom");
+
     public QSubject(String variable) {
         super(Subject.class, forVariable(variable));
     }

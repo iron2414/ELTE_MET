@@ -65,7 +65,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .requireCsrfProtectionMatcher(csrfRequestMatcher)
                 .and()
                 .exceptionHandling().authenticationEntryPoint(authenticationEntryPoint)
-                .and().authorizeRequests().antMatchers("/temp/**").permitAll()
+                .and().authorizeRequests().antMatchers("/**").permitAll()
                 .and().addFilterAt(customUsernamePasswordAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class)
                 .formLogin().permitAll()
                 .and().logout().logoutSuccessHandler(RESTLogoutHandler())
