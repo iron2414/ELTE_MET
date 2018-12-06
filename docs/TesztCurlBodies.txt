@@ -6,3 +6,6 @@ user
 
 group
 {"name":"TesztGroup", "description": "TesztGroupDescription"}
+
+group-add
+http://localhost:8080/groups/group/permissions/1?permissions=1,2

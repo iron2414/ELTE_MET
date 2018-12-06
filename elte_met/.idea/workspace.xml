@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f11d966b-74ec-403c-ac40-0d684a13cd35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/controller/GroupController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Dds.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/entity/GroupRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/entity/GroupRepositoryImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/form/GroupForm.java" />
-      <change beforePath="$PROJECT_DIR$/../docs/PAD.docx" afterPath="$PROJECT_DIR$/../docs/PAD.docx" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/TempController.java" afterPath="$PROJECT_DIR$/src/main/java/app/controller/TempController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/app/controller/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Group.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Group.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Permission.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Permission.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Practice.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Practice.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/form/UserForm.java" afterPath="$PROJECT_DIR$/src/main/java/app/form/UserForm.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/SecurityConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/config/SecurityConfiguration.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar.original" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/TempController.class" afterPath="$PROJECT_DIR$/target/classes/app/controller/TempController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/app/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Exam.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Exam.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/ExamRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/ExamRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/ExamRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/ExamRepositoryImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Group.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Group.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/MessageRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/MessageRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/MessageRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/MessageRepositoryImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Permission.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Permission.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Practice.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Practice.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QExam.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QExam.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QPermission.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QPermission.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QPractice.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QPractice.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QSubject.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QSubject.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Subject.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Subject.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/form/UserForm.class" afterPath="$PROJECT_DIR$/target/classes/app/form/UserForm.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/SecurityConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/config/SecurityConfiguration.class" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QExam.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QExam.java" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPermission.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPermission.java" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPractice.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPractice.java" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubject.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubject.java" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -850,12 +808,12 @@
       <workItem from="1542983008231" duration="3195000" />
       <workItem from="1543166904694" duration="1198000" />
       <workItem from="1543752644741" duration="1170000" />
-      <workItem from="1544100855781" duration="7841000" />
+      <workItem from="1544100855781" duration="7923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199604000" />
+    <option name="totallyTimeSpent" value="199686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
