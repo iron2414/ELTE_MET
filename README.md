@@ -3,4 +3,4 @@ Az MSc-s 'Szoftverfejlesztés a gyakorlatban 2' c. tárgyhoz tartozó repository
 
 A fenti szoftver egy Működőképes, Egyszerű és Terhelhető tanulmányi rendszert valósít meg, JAVA alapokon.
 
-/cucc?size=2&page=0&search=failedLogins=2,name:aA1122ß%
+http://localhost:8080/user/users?size=25&page=0&search=id<10&sort=id,desc
