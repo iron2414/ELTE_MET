@@ -35,6 +35,9 @@ public class GroupController {
     @Autowired
     private PermissionRepository permissionRepository;
 
+    @Autowired
+    private UserRepository userRepository;
+
     @JsonRequestMapping(path = "/group/{id}")
     //@PreAuthorize("hasRole('ROLE_GROUP_GET')")
     public @ResponseBody
@@ -101,12 +104,14 @@ public class GroupController {
         }
     }
 
-    @JsonRequestMapping(path = "/group/permissions/{id}", method = RequestMethod.PUT)
+    @JsonRequestMapping(path = "/group/edit/{id}", method = RequestMethod.PUT)
     @ResponseBody
     //@PreAuthorize("hasRole('ROLE_GROUP_UPDATE')")
-    public ResponseEntity<Object> setPermissionsAction(@RequestParam Long[] permissions,@PathVariable("id") Group group) {
+    public ResponseEntity<Object> setPermissionsAction(@RequestParam Long[] permissions,@RequestParam Long[] users,
+                                                       @PathVariable("id") Group group) {
         try {
             Set<Permission> permissonSet = new HashSet<>();
+            Set<User> userSet = new HashSet<>();
             for(Long id : permissions) {
                 Optional<Permission> permission = permissionRepository.findById(id);
                 if(permission.isPresent()) {
@@ -115,9 +120,30 @@ public class GroupController {
                     throw new Exception("Invalid permission ID:" + id);
                 }
             }
+            for(Long id : users) {
+                Optional<User> user = userRepository.findById(id);
+                if(user.isPresent()) {
+                    user.get().addGroup(group);
+                    userRepository.save(user.get());
+                } else {
+                    throw new Exception("Invalid user ID:" + id);
+                }
+            }
             group.setPermissions(permissonSet);
             groupRepository.save(group);
             return Response.create(group);
+        } catch (Exception ex) {
+            System.err.println(ex);
+            return Response.create(ex);
+        }
+    }
+
+    @JsonRequestMapping(path = "/group/users/{id}", method = RequestMethod.GET)
+    @ResponseBody
+    //@PreAuthorize("hasRole('ROLE_GROUP_UPDATE')")
+    public ResponseEntity<Object>getUsersForGroupAction(@PathVariable("id") Group group) {
+        try {
+            return Response.create(group.getUsers());
         } catch (Exception ex) {
             System.err.println(ex);
             return Response.create(ex);

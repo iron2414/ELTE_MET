@@ -56,7 +56,7 @@ public class QDds extends EntityPathBase<Dds> {
         super(type, metadata, inits);
         this.exam = inits.isInitialized("exam") ? new QExam(forProperty("exam"), inits.get("exam")) : null;
         this.practice = inits.isInitialized("practice") ? new QPractice(forProperty("practice"), inits.get("practice")) : null;
-        this.subject = inits.isInitialized("subject") ? new QSubject(forProperty("subject")) : null;
+        this.subject = inits.isInitialized("subject") ? new QSubject(forProperty("subject"), inits.get("subject")) : null;
     }
 
 }

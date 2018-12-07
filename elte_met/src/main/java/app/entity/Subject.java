@@ -33,7 +33,7 @@ public class Subject {
     @Column(name = "recommended_semester", nullable = false)
     private Integer recommendedSemester;
 
-    @Column(name = "which_room", length = 5, nullable = false)
+    @Column(name = "which_room", length = 15, nullable = false)
     private String whichRoom;
 
     @JsonIgnore
@@ -47,6 +47,23 @@ public class Subject {
             fetch = FetchType.LAZY,
             mappedBy = "subject")
     private Set<Practice> practices = new HashSet<>();
+
+    @ManyToMany(fetch = FetchType.LAZY,
+            cascade = {
+                    CascadeType.PERSIST,
+                    CascadeType.MERGE
+            })
+    @JoinTable(name = "subject_user",
+            joinColumns = { @JoinColumn(name = "subject_id") },
+            inverseJoinColumns = { @JoinColumn(name = "user_id") })
+    private Set<User> students = new HashSet<>();
+
+    @ManyToOne(fetch = FetchType.EAGER, optional = false)
+    @JoinColumn(name = "teacher", nullable = false)
+    private User teacher;
+
+    @Column(name = "semester", length = 50, nullable = false)
+    private String semester;
 
 
     public Long getId() {
@@ -137,4 +154,35 @@ public class Subject {
         this.getPractices().remove(practice);
     }
 
+    public Set<User> getStudents() {
+        return students;
+    }
+
+    public void setStudents(Set<User> students) {
+        this.students = students;
+    }
+
+    public void addStudent(User user) {
+        this.getStudents().add(user);
+    }
+
+    public void removeStudent(User user) {
+        this.getStudents().remove(user);
+    }
+
+    public User getTeacher() {
+        return teacher;
+    }
+
+    public void setTeacher(User teacher) {
+        this.teacher = teacher;
+    }
+
+    public String getSemester() {
+        return semester;
+    }
+
+    public void setSemester(String semester) {
+        this.semester = semester;
+    }
 }

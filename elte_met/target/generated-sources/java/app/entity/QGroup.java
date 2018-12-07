@@ -22,7 +22,7 @@ public class QGroup extends EntityPathBase<Group> {
 
     public final StringPath description = createString("description");
 
-    public final NumberPath<Integer> id = createNumber("id", Integer.class);
+    public final NumberPath<Long> id = createNumber("id", Long.class);
 
     public final StringPath name = createString("name");
 

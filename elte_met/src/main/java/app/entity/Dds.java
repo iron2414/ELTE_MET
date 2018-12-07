@@ -24,17 +24,17 @@ public class Dds {
     private Date date;
 
     //TODO oneToMany otherside
-    @ManyToOne(fetch = FetchType.EAGER, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "practice_id", nullable = true)
     private Practice practice;
 
     //TODO oneToMany otherside
-    @ManyToOne(fetch = FetchType.EAGER, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "exam_id", nullable = true)
     private Exam exam;
 
     //TODO oneToMany otherside
-    @ManyToOne(fetch = FetchType.EAGER, optional = false)
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "subject_id", nullable = true)
     private Subject subject;
 

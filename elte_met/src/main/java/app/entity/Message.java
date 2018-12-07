@@ -26,6 +26,9 @@ public class Message {
     @Column(name = "sending_date", columnDefinition = "DATETIME")
     private Date sendingDate;
 
+    @Column(name = "is_read", columnDefinition = "tinyint(1) default 0", nullable = false)
+    private Boolean isRead;
+
     public Long getId() {
         return id;
     }
@@ -64,5 +67,13 @@ public class Message {
 
     public void setSendingDate(Date sendingDate) {
         this.sendingDate = sendingDate;
+    }
+
+    public Boolean getRead() {
+        return isRead;
+    }
+
+    public void setRead(Boolean read) {
+        isRead = read;
     }
 }

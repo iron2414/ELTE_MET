@@ -52,6 +52,8 @@ public class QUser extends EntityPathBase<User> {
 
     public final SetPath<Practice, QPractice> practices = this.<Practice, QPractice>createSet("practices", Practice.class, QPractice.class, PathInits.DIRECT2);
 
+    public final SetPath<Subject, QSubject> subjects = this.<Subject, QSubject>createSet("subjects", Subject.class, QSubject.class, PathInits.DIRECT2);
+
     public final StringPath taxNumber = createString("taxNumber");
 
     public final StringPath username = createString("username");

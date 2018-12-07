@@ -54,7 +54,7 @@ public class QPractice extends EntityPathBase<Practice> {
 
     public QPractice(Class<? extends Practice> type, PathMetadata metadata, PathInits inits) {
         super(type, metadata, inits);
-        this.subject = inits.isInitialized("subject") ? new QSubject(forProperty("subject")) : null;
+        this.subject = inits.isInitialized("subject") ? new QSubject(forProperty("subject"), inits.get("subject")) : null;
         this.teacher = inits.isInitialized("teacher") ? new QUser(forProperty("teacher")) : null;
     }
 

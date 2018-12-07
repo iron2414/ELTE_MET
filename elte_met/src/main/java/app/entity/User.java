@@ -70,7 +70,6 @@ public class User implements UserDetails {
     @Column(name = "deleted_at", columnDefinition = "DATETIME")
     private Date deletedAt;
 
-    @JsonIgnore
     @ManyToMany(fetch = FetchType.LAZY,
             cascade = {
                     CascadeType.PERSIST,
@@ -92,6 +91,24 @@ public class User implements UserDetails {
     @OneToMany(cascade = CascadeType.ALL,
             fetch = FetchType.LAZY,
             mappedBy = "teacher")
+    private Set<Practice> practiceTeachings = new HashSet<>();
+
+    @ManyToMany(fetch = FetchType.LAZY,
+            cascade = {
+                    CascadeType.PERSIST,
+                    CascadeType.MERGE
+            },
+            mappedBy = "students")
+    @JsonIgnore
+    private Set<Subject> subjects = new HashSet<>();
+
+    @ManyToMany(fetch = FetchType.LAZY,
+            cascade = {
+                    CascadeType.PERSIST,
+                    CascadeType.MERGE
+            },
+            mappedBy = "students")
+    @JsonIgnore
     private Set<Practice> practices = new HashSet<>();
 
 
@@ -303,5 +320,21 @@ public class User implements UserDetails {
 
     public void removePractice(Practice practice) {
         this.getPractices().remove(practice);
+    }
+
+    public Set<Practice> getPracticeTeachings() {
+        return practiceTeachings;
+    }
+
+    public void setPracticeTeachings(Set<Practice> practiceTeachings) {
+        this.practiceTeachings = practiceTeachings;
+    }
+
+    public Set<Subject> getSubjects() {
+        return subjects;
+    }
+
+    public void setSubjects(Set<Subject> subjects) {
+        this.subjects = subjects;
     }
 }

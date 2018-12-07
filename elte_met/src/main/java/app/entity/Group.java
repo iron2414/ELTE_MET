@@ -82,6 +82,10 @@ public class Group {
         return users;
     }
 
+    public void setUsers(Set<User> users) {
+        this.users = users;
+    }
+
     public void addUser(User user) {
         this.getUsers().add(user);
     }

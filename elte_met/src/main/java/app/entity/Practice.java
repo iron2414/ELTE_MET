@@ -1,6 +1,8 @@
 package app.entity;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "practice")
@@ -26,8 +28,18 @@ public class Practice {
     @Column(name = "how_many_task", nullable = false)
     private Integer howManyTask;
 
-    @Column(name = "which_room", length = 5, nullable = false)
+    @Column(name = "which_room", length = 15, nullable = false)
     private String whichRoom;
+
+    @ManyToMany(fetch = FetchType.LAZY,
+            cascade = {
+                    CascadeType.PERSIST,
+                    CascadeType.MERGE
+            })
+    @JoinTable(name = "practice_user",
+            joinColumns = { @JoinColumn(name = "practice_id") },
+            inverseJoinColumns = { @JoinColumn(name = "user_id") })
+    private Set<User> students = new HashSet<>();
 
     public Long getId() {
         return id;
@@ -83,5 +95,21 @@ public class Practice {
 
     public void setWhichRoom(String whichRoom) {
         this.whichRoom = whichRoom;
+    }
+
+    public Set<User> getStudents() {
+        return students;
+    }
+
+    public void setStudents(Set<User> students) {
+        this.students = students;
+    }
+
+    public void addStudent(User user) {
+        this.getStudents().add(user);
+    }
+
+    public void removeStudent(User user) {
+        this.getStudents().remove(user);
     }
 }

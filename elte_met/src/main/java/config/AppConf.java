@@ -43,7 +43,6 @@ public class AppConf implements WebMvcConfigurer {
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
 
-        //converters.add(createXmlHttpMessageConverter());
         converters.add(new MappingJackson2HttpMessageConverter());
 
         WebMvcConfigurer.super.configureMessageConverters(converters);

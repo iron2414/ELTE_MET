@@ -8,4 +8,13 @@ group
 {"name":"TesztGroup", "description": "TesztGroupDescription"}
 
 group-add
-http://localhost:8080/groups/group/permissions/1?permissions=1,2
+http://localhost:8080/groups/group/permissions/1?permissions=1,2&users=1,2,3
+
+Subject
+{"name":"TesztSubject", "credit": 1, "hasPractice":1,"isNecessary":1, "lecutresPerWeek":1,"recommendedSemester":1,"semester":"2018-2019 osz", "whichRoom":"0-804", "lecturer":1}
+
+Practice
+{"subject":3, "credit": 1, "teacher":1,"hasTasks":1, "howManyTasks":1,"whichRoom":"0-804"}
+
+Dds
+{"date":"2018-10-01T09:45:00.000", "durability": 90, "seatNumber": 30, "practice":2  }

@@ -2,7 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f11d966b-74ec-403c-ac40-0d684a13cd35" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/controller/DdsController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/controller/MessageController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/controller/PracticeController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/entity/DdsRepositoryImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/form/DdsForm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/form/MessageForm.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/form/PracticeForm.java" />
+      <change beforePath="$PROJECT_DIR$/../docs/PAD.docx" afterPath="$PROJECT_DIR$/../docs/PAD.docx" />
+      <change beforePath="$PROJECT_DIR$/../docs/Permissions.txt" afterPath="$PROJECT_DIR$/../docs/Permissions.txt" />
+      <change beforePath="$PROJECT_DIR$/../docs/TesztCurlBodies.txt" afterPath="$PROJECT_DIR$/../docs/TesztCurlBodies.txt" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/GroupController.java" afterPath="$PROJECT_DIR$/src/main/java/app/controller/GroupController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" afterPath="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Dds.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Dds.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Group.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Group.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Message.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Message.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Practice.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Practice.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/PracticeRepository.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/PracticeRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacher.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacherRepository.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/DdsRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacherRepositoryImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" afterPath="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/AppConf.java" afterPath="$PROJECT_DIR$/src/main/java/config/AppConf.java" />
+      <change beforePath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar.original" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/GroupController.class" afterPath="$PROJECT_DIR$/target/classes/app/controller/GroupController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/SubjectController.class" afterPath="$PROJECT_DIR$/target/classes/app/controller/SubjectController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/app/controller/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Dds.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Dds.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/ExamRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/ExamRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/ExamRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/ExamRepositoryImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Group.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Group.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/GroupRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/GroupRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/GroupRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/GroupRepositoryImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Message.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Message.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/MessageRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/MessageRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/MessageRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/MessageRepositoryImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Permission.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Permission.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Practice.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Practice.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/PracticeRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/PracticeRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/PracticeRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/PracticeRepositoryImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QDds.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QDds.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QDocument.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QDocument.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QGroup.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QGroup.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QPermission.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QPermission.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QPractice.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QPractice.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QSubject.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QSubject.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QSubjectSemesterTeacher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QUser.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Subject.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Subject.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/SubjectRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/SubjectRepository.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/SubjectSemesterTeacher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/SubjectSemesterTeacherRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/SubjectSemesterTeacherRepositoryImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/User.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/form/GroupForm.class" afterPath="$PROJECT_DIR$/target/classes/app/form/GroupForm.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/form/SubjectForm.class" afterPath="$PROJECT_DIR$/target/classes/app/form/SubjectForm.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/AppConf.class" afterPath="$PROJECT_DIR$/target/classes/config/AppConf.class" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QDds.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QDds.java" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QDocument.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QDocument.java" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QGroup.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QGroup.java" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPermission.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPermission.java" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPractice.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPractice.java" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubject.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubject.java" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubjectSemesterTeacher.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QUser.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QUser.java" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,35 +175,64 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
+            <state relative-caret-position="88">
+              <caret line="65" column="97" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="97" />
               <folding>
-                <element signature="e#4266#4267#0" expanded="true" />
-                <element signature="e#4307#4308#0" expanded="true" />
-                <element signature="e#6033#6034#0" expanded="true" />
-                <element signature="e#6079#6080#0" expanded="true" />
-                <element signature="e#6911#6912#0" expanded="true" />
-                <element signature="e#6947#6948#0" expanded="true" />
+                <element signature="e#4786#4787#0" expanded="true" />
+                <element signature="e#4827#4828#0" expanded="true" />
+                <element signature="e#6553#6554#0" expanded="true" />
+                <element signature="e#6599#6600#0" expanded="true" />
+                <element signature="e#7431#7432#0" expanded="true" />
+                <element signature="e#7467#7468#0" expanded="true" />
+                <element signature="e#7594#7595#0" expanded="true" />
+                <element signature="e#7626#7627#0" expanded="true" />
+                <element signature="e#7881#7882#0" expanded="true" />
+                <element signature="e#7921#7922#0" expanded="true" />
+                <element signature="e#7994#7995#0" expanded="true" />
+                <element signature="e#8052#8053#0" expanded="true" />
+                <element signature="e#8093#8094#0" expanded="true" />
+                <element signature="e#8124#8125#0" expanded="true" />
+                <element signature="e#8178#8179#0" expanded="true" />
+                <element signature="e#8218#8219#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/UserController.java">
+      <file leaf-file-name="DdsController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/DdsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="102" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="326">
+              <caret line="185" column="9" lean-forward="false" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+                <element signature="e#1594#1595#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/GroupController.java">
+      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Message.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
-              <caret line="118" column="40" lean-forward="true" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="e#1612#1613#0" expanded="true" />
+                <element signature="e#1641#1642#0" expanded="true" />
+                <element signature="e#1682#1683#0" expanded="true" />
+                <element signature="e#1711#1712#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/MessageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,51 +240,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Permission.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Permission.java">
+      <file leaf-file-name="MessageForm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/form/MessageForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="22" />
               <folding>
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#894#895#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Group.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Group.java">
+      <file leaf-file-name="DdsRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/DdsRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="154">
+              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="28" />
               <folding>
-                <element signature="e#1137#1138#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1196#1197#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GroupForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/form/GroupForm.java">
+      <file leaf-file-name="SubjectRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+            <state relative-caret-position="289">
+              <caret line="30" column="59" lean-forward="false" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
               <folding>
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PracticeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/PracticeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="165" column="121" lean-forward="true" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="121" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/GroupController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="108" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -202,37 +313,43 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>subjects</find>
-      <find>boolean</find>
-      <find>userName</find>
-      <find>metCode</find>
-      <find>getMet</find>
-      <find>j</find>
-      <find>addSubje</find>
-      <find>documents</find>
-      <find>Integer</find>
-      <find>Boolean</find>
-      <find>String</find>
-      <find>Date</find>
-      <find>Document</find>
-      <find>date</find>
-      <find>ManyToMany</find>
-      <find>whichR</find>
-      <find>degree</find>
-      <find>12314</find>
-      <find>superAdmin</find>
-      <find>:</find>
-      <find>JsonIgno</find>
-      <find>Boolea</find>
       <find>dateOf</find>
       <find>superAd,om</find>
       <find>superad</find>
       <find>isSuperAdmin</find>
       <find>messa</find>
-      <find>postAction</find>
       <find>mess</find>
       <find>permissions</find>
+      <find>group</find>
+      <find>ROLE_GROUP_ED</find>
+      <find>ROLE_GROUP_UP</find>
+      <find>ROLE_GROUP_EDI</find>
+      <find>ManyToMany</find>
+      <find>subject_s</find>
+      <find>whic</find>
+      <find>postAction</find>
+      <find>Subject</find>
+      <find>SUBJECT</find>
+      <find>addStude</find>
+      <find>practices</find>
+      <find>which</find>
+      <find>room</find>
+      <find>lecturer</find>
+      <find>lectruer</find>
+      <find>findAll</find>
+      <find>users</find>
+      <find>PRACTICE</find>
+      <find>Exa</find>
+      <find>cgetAction</find>
+      <find>deleted</find>
+      <find>DDS</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Practice</replace>
+      <replace>PRACTICE</replace>
+      <replace>DDS</replace>
+      <replace>MESSAGE</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>Y:\workspace\gdsgui-java\trunk\src\main\java\app\entity</dir>
       <dir>Y:\workspace\gdsgui-java\trunk\src\main\java\app\controller</dir>
@@ -260,21 +377,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/util/Job/AsyncGetJob.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/config/SocketConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Job/ThreadedSafe.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/SocketPoolConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Response/Response.java" />
-        <option value="$PROJECT_DIR$/src/main/java/exception/UserNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/authentication/RESTAuthenticationSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/UserRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/SecurityController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Form/Form.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/Application.java" />
         <option value="$PROJECT_DIR$/src/resources/client/config-overrides.js" />
@@ -282,35 +388,46 @@
         <option value="$PROJECT_DIR$/src/main/java/app/entity/Document.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/DocumentRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/DocumentRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/PracticeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/PracticeRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacher.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacherRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacherRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/Exam.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/ExamRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/ExamRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/MessageRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/MessageRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/dds.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/Practice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/Dds.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/TempController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/form/UserForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/GroupRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/GroupRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/form/GroupForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/form/GroupPermissionForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/Permission.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/Group.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/GroupController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/Permission.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/Practice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/form/PracticeForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/config/AppConf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/PracticeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/PracticeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/DdsRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/Dds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/form/DdsForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/DdsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/DdsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/form/MessageForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/MessageController.java" />
       </list>
     </option>
   </component>
@@ -368,28 +485,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="trunk" type="58d84e3e:PackageViewProjectNode" />
-              <item name="trunk" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="trunk" type="58d84e3e:PackageViewProjectNode" />
-              <item name="trunk" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="trunk" type="58d84e3e:PackageViewProjectNode" />
-              <item name="trunk" type="616d4139:PackageViewModuleNode" />
-              <item name="app" type="1f31426a:PackageElementNode" />
-              <item name="entity" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -511,6 +606,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elte_met" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elte_met" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -533,6 +637,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="trunk" type="58d84e3e:PackageViewProjectNode" />
+              <item name="trunk" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="trunk" type="58d84e3e:PackageViewProjectNode" />
+              <item name="trunk" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="trunk" type="58d84e3e:PackageViewProjectNode" />
+              <item name="trunk" type="616d4139:PackageViewModuleNode" />
+              <item name="app" type="1f31426a:PackageElementNode" />
+              <item name="entity" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -542,7 +668,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="dds&#9;PSI&#9;JAVA://app.entity.Dds&#10;Application&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/Application.java&#10;UserRep&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/entity/UserRepository.java&#10;pom.xml&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/pom.xml&#10;TempCon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/TempController.java&#10;SubjectForm&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/form/SubjectForm.java&#10;AppErrorControllerű&#9;PSI&#9;JAVA://util.AppErrorController&#10;pom.x&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/gdsgui-java/pom.xml&#10;UserRepo&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/gdsgui-java/src/main/java/app/entity/UserRepository.java&#10;UserCont&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;pom&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/pom.xml&#10;Applicat&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCon&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;PageNotFoundEx&#9;PSI&#9;JAVA://exception.PageNotFoundException&#10;UserController&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;UserReposi&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/UserRepository.java&#10;QuerydslPredicateArgumentResolver&#9;PSI&#9;JAVA://org.springframework.data.web.querydsl.QuerydslPredicateArgumentResolver&#10;Permission&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/Permission.java" />
+    <property name="SearchEverywhereHistoryKey" value="PracticeCon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/PracticeController.java&#10;Practic&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/entity/Practice.java&#10;PracticeRepos&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/entity/PracticeRepository.java&#10;SubjectForm&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/form/SubjectForm.java&#10;GroupFo&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/form/GroupForm.java&#10;tempcon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/TempController.java&#10;dds&#9;PSI&#9;JAVA://app.entity.Dds&#10;Application&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/Application.java&#10;UserRep&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/entity/UserRepository.java&#10;pom.xml&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/pom.xml&#10;TempCon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/TempController.java&#10;AppErrorControllerű&#9;PSI&#9;JAVA://util.AppErrorController&#10;pom.x&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/gdsgui-java/pom.xml&#10;UserRepo&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/gdsgui-java/src/main/java/app/entity/UserRepository.java&#10;UserCont&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;pom&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/pom.xml&#10;Applicat&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCon&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;PageNotFoundEx&#9;PSI&#9;JAVA://exception.PageNotFoundException&#10;UserController&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;UserReposi&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/UserRepository.java&#10;QuerydslPredicateArgumentResolver&#9;PSI&#9;JAVA://org.springframework.data.web.querydsl.QuerydslPredicateArgumentResolver&#10;Permission&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/Permission.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535718260220" />
@@ -560,8 +686,8 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="app.form" />
-      <recent name="app.entity" />
       <recent name="app.controller" />
+      <recent name="app.entity" />
       <recent name="config" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -808,38 +934,38 @@
       <workItem from="1542983008231" duration="3195000" />
       <workItem from="1543166904694" duration="1198000" />
       <workItem from="1543752644741" duration="1170000" />
-      <workItem from="1544100855781" duration="7923000" />
+      <workItem from="1544100855781" duration="8164000" />
+      <workItem from="1544200638608" duration="15835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199686000" />
+    <option name="totallyTimeSpent" value="215762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4882943" sideWeight="0.11513859" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4882943" sideWeight="0.12633263" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10554371" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32249466" sideWeight="0.32897604" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32622603" sideWeight="0.21568628" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39822024" sideWeight="0.9104478" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.48614073" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.48400852" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4882943" sideWeight="0.8848614" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4882943" sideWeight="0.87366736" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.4989339" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.49946696" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32249466" sideWeight="0.67102396" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32622603" sideWeight="0.78431374" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.49946696" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -893,353 +1019,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/UserRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#248#249#0" expanded="false" />
-            <element signature="e#311#312#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/ELTE_Szoftek:ELTE_MET:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>ELTE_Szoftek:ELTE_MET:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">ELTE_Szoftek:ELTE_MET:1.0-SNAPSHOT</node>
-            <node x="" y="">javax.xml.bind:jaxb-api:jar:2.3.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.10.0/org.apache.logging.log4j:log4j-api:jar:2.10.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.0.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.0.3.RELEASE/org.yaml:snakeyaml:jar:1.19</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6/com.fasterxml.jackson.core:jackson-core:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.6/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6/com.fasterxml.jackson.core:jackson-core:jar:2.9.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.6/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6/com.fasterxml.jackson.core:jackson-core:jar:2.9.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.0.3.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.6/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.31</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.31</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.0.3.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.31</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework:spring-web:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.0.6.RELEASE/org.springframework:spring-webmvc:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/junit:junit:jar:4.12</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.assertj:assertj-core:jar:3.9.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy:jar:1.7.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/net.bytebuddy:byte-buddy-agent:jar:1.7.11</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.mockito:mockito-core:jar:2.15.0/org.objenesis:objenesis:jar:2.6</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework:spring-core:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework:spring-core:jar:5.0.7.RELEASE/org.springframework:spring-jcl:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.springframework:spring-test:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.0.6.RELEASE/org.xmlunit:xmlunit-core:jar:2.5.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-devtools:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.0.3.RELEASE</node>
-            <node x="" y="">com.jayway.jsonpath:json-path:jar:2.4.0</node>
-            <node x="" y="">com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
-            <node x="" y="">com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
-            <node x="" y="">com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
-            <node x="" y="">com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.jsoup:jsoup:jar:1.10.1</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-core:jar:2.9.7</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-annotations:jar:2.9.7</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.7</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.7/com.fasterxml.jackson.core:jackson-core:jar:2.9.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.0.3.RELEASE/org.aspectj:aspectjweaver:jar:1.8.13</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.3.RELEASE/com.zaxxer:HikariCP:jar:2.7.9</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:2.0.3.RELEASE/org.springframework:spring-jdbc:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.hibernate:hibernate-core:jar:5.2.17.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.hibernate:hibernate-core:jar:5.2.17.Final/org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.2.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.hibernate:hibernate-core:jar:5.2.17.Final/org.javassist:javassist:jar:3.22.0-GA</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.hibernate:hibernate-core:jar:5.2.17.Final/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.hibernate:hibernate-core:jar:5.2.17.Final/org.jboss:jandex:jar:2.0.3.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.hibernate:hibernate-core:jar:5.2.17.Final/dom4j:dom4j:jar:1.6.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.hibernate:hibernate-core:jar:5.2.17.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.1.Final</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/javax.transaction:javax.transaction-api:jar:1.2</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework.data:spring-data-commons:jar:2.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-orm:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-tx:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.0.3.RELEASE/org.springframework:spring-aspects:jar:5.0.7.RELEASE</node>
-            <node x="" y="">com.querydsl:querydsl-apt:jar:4.2.1</node>
-            <node x="" y="">com.querydsl:querydsl-apt:jar:4.2.1/com.querydsl:querydsl-codegen:jar:4.2.1</node>
-            <node x="" y="">com.querydsl:querydsl-apt:jar:4.2.1/com.querydsl:querydsl-codegen:jar:4.2.1/com.mysema.codegen:codegen:jar:0.6.8</node>
-            <node x="" y="">com.querydsl:querydsl-apt:jar:4.2.1/com.querydsl:querydsl-codegen:jar:4.2.1/com.mysema.codegen:codegen:jar:0.6.8/org.eclipse.jdt.core.compiler:ecj:jar:4.3.1</node>
-            <node x="" y="">com.querydsl:querydsl-apt:jar:4.2.1/com.querydsl:querydsl-codegen:jar:4.2.1/org.reflections:reflections:jar:0.9.9</node>
-            <node x="" y="">com.querydsl:querydsl-apt:jar:4.2.1/com.querydsl:querydsl-codegen:jar:4.2.1/org.reflections:reflections:jar:0.9.9/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">com.querydsl:querydsl-apt:jar:4.2.1/com.querydsl:querydsl-codegen:jar:4.2.1/org.reflections:reflections:jar:0.9.9/org.javassist:javassist:jar:3.18.2-GA</node>
-            <node x="" y="">com.querydsl:querydsl-apt:jar:4.2.1/com.querydsl:querydsl-codegen:jar:4.2.1/org.reflections:reflections:jar:0.9.9/com.google.code.findbugs:annotations:jar:2.0.1</node>
-            <node x="" y="">com.querydsl:querydsl-jpa:jar:4.2.1</node>
-            <node x="" y="">com.querydsl:querydsl-jpa:jar:4.2.1/com.querydsl:querydsl-core:jar:4.1.4</node>
-            <node x="" y="">com.querydsl:querydsl-jpa:jar:4.2.1/com.querydsl:querydsl-core:jar:4.1.4/com.google.guava:guava:jar:18.0</node>
-            <node x="" y="">com.querydsl:querydsl-jpa:jar:4.2.1/com.querydsl:querydsl-core:jar:4.1.4/com.google.code.findbugs:jsr305:jar:1.3.9</node>
-            <node x="" y="">com.querydsl:querydsl-jpa:jar:4.2.1/com.querydsl:querydsl-core:jar:4.1.4/com.mysema.commons:mysema-commons-lang:jar:0.2.4</node>
-            <node x="" y="">com.querydsl:querydsl-jpa:jar:4.2.1/com.querydsl:querydsl-core:jar:4.1.4/com.infradna.tool:bridge-method-annotation:jar:1.13</node>
-            <node x="" y="">com.querydsl:querydsl-jpa:jar:4.2.1/javax.inject:javax.inject:jar:1</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.46</node>
-            <node x="" y="">org.hibernate.validator:hibernate-validator:jar:6.0.10.Final</node>
-            <node x="" y="">org.hibernate.validator:hibernate-validator:jar:6.0.10.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
-            <node x="" y="">org.hibernate.validator:hibernate-validator:jar:6.0.10.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-            <node x="" y="">org.hibernate.validator:hibernate-validator:jar:6.0.10.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">apache-beanutils:commons-beanutils:jar:1.7.0</node>
-            <node x="" y="">org.springframework:spring-beans:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework:org.springframework.oxm:jar:3.2.2.RELEASE</node>
-            <node x="" y="">org.springframework:org.springframework.oxm:jar:3.2.2.RELEASE/org.springframework:org.springframework.beans:jar:3.2.2.RELEASE</node>
-            <node x="" y="">org.springframework:org.springframework.oxm:jar:3.2.2.RELEASE/org.springframework:org.springframework.beans:jar:3.2.2.RELEASE/org.apache.commons:com.springsource.org.apache.commons.logging:jar:1.1.1</node>
-            <node x="" y="">org.springframework:org.springframework.oxm:jar:3.2.2.RELEASE/org.springframework:org.springframework.core:jar:3.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:2.0.3.RELEASE</node>
-            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.10</node>
-            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.10/xmlpull:xmlpull:jar:1.1.3.1</node>
-            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.10/xpp3:xpp3_min:jar:1.1.4c</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:5.0.6.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:5.0.6.RELEASE/org.springframework.security:spring-security-core:jar:5.0.6.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:5.0.6.RELEASE/org.springframework:spring-aop:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:5.0.6.RELEASE/org.springframework:spring-context:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-web:jar:5.0.6.RELEASE/org.springframework:spring-expression:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.security:spring-security-config:jar:5.0.6.RELEASE</node>
-            <node x="" y="">io.jsonwebtoken:jjwt:jar:0.9.1</node>
-            <node x="" y="">io.jsonwebtoken:jjwt:jar:0.9.1/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-actuator:jar:2.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.3.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.0.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.7</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.3.RELEASE/io.micrometer:micrometer-core:jar:1.0.5</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.3.RELEASE/io.micrometer:micrometer-core:jar:1.0.5/org.hdrhistogram:HdrHistogram:jar:2.1.10</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.0.3.RELEASE/io.micrometer:micrometer-core:jar:1.0.5/org.latencyutils:LatencyUtils:jar:2.0.3</node>
-            <node x="" y="">org.jolokia:jolokia-core:jar:1.5.0</node>
-            <node x="" y="">org.jolokia:jolokia-core:jar:1.5.0/com.googlecode.json-simple:json-simple:jar:1.1.1</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="4439.0" y="285.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.7.RELEASE/spring-web-5.0.7.RELEASE.jar!/org/springframework/http/ResponseEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="162" column="21" lean-forward="false" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/java/app/entity/QUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="37" column="57" lean-forward="false" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/client/config-overrides.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/client/src/Test.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/DocumentRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="e#240#241#0" expanded="false" />
-            <element signature="e#307#308#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/PracticeRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="e#753#754#0" expanded="false" />
-            <element signature="e#778#779#0" expanded="false" />
-            <element signature="e#812#813#0" expanded="false" />
-            <element signature="e#840#841#0" expanded="false" />
-            <element signature="e#875#876#0" expanded="false" />
-            <element signature="e#906#907#0" expanded="false" />
-            <element signature="e#954#955#0" expanded="false" />
-            <element signature="e#994#995#0" expanded="false" />
-            <element signature="e#1029#1030#0" expanded="false" />
-            <element signature="e#1059#1060#0" expanded="false" />
-            <element signature="e#1106#1107#0" expanded="false" />
-            <element signature="e#1144#1145#0" expanded="false" />
-            <element signature="e#1186#1187#0" expanded="false" />
-            <element signature="e#1227#1228#0" expanded="false" />
-            <element signature="e#1292#1293#0" expanded="false" />
-            <element signature="e#1352#1353#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacherRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacherRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="78" lean-forward="false" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/DocumentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#889#890#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1460#1461#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/ExamRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/MessageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/MessageRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1306,107 +1085,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/CsrfGrantingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/AppConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/MyUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/SecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="67" column="57" lean-forward="false" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Practice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-          <folding>
-            <element signature="e#890#891#0" expanded="false" />
-            <element signature="e#915#916#0" expanded="false" />
-            <element signature="e#949#950#0" expanded="false" />
-            <element signature="e#977#978#0" expanded="false" />
-            <element signature="e#1012#1013#0" expanded="false" />
-            <element signature="e#1042#1043#0" expanded="false" />
-            <element signature="e#1089#1090#0" expanded="false" />
-            <element signature="e#1127#1128#0" expanded="false" />
-            <element signature="e#1159#1160#0" expanded="false" />
-            <element signature="e#1189#1190#0" expanded="false" />
-            <element signature="e#1233#1234#0" expanded="false" />
-            <element signature="e#1271#1272#0" expanded="false" />
-            <element signature="e#1305#1306#0" expanded="false" />
-            <element signature="e#1334#1335#0" expanded="false" />
-            <element signature="e#1379#1380#0" expanded="false" />
-            <element signature="e#1415#1416#0" expanded="false" />
-            <element signature="e#1451#1452#0" expanded="false" />
-            <element signature="e#1482#1483#0" expanded="false" />
-            <element signature="e#1531#1532#0" expanded="false" />
-            <element signature="e#1571#1572#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="false" />
-            <element signature="e#1644#1645#0" expanded="false" />
-            <element signature="e#1699#1700#0" expanded="false" />
-            <element signature="e#1745#1746#0" expanded="false" />
-            <element signature="e#1813#1814#0" expanded="false" />
-            <element signature="e#1863#1864#0" expanded="false" />
-            <element signature="e#1905#1906#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="107" column="34" lean-forward="false" selection-start-line="107" selection-start-column="34" selection-end-line="107" selection-end-column="34" />
-          <folding>
-            <element signature="e#245#248#0" expanded="false" />
-            <element signature="e#2618#2619#0" expanded="false" />
-            <element signature="e#2668#2669#0" expanded="false" />
-            <element signature="e#2710#2711#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Exam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/TempController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1435,47 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Dds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="74" column="35" lean-forward="false" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1223#1224#0" expanded="false" />
-            <element signature="e#1256#1257#0" expanded="false" />
-            <element signature="e#1309#1310#0" expanded="false" />
-            <element signature="e#1353#1354#0" expanded="false" />
-            <element signature="e#1391#1392#0" expanded="false" />
-            <element signature="e#1424#1425#0" expanded="false" />
-            <element signature="e#1477#1478#0" expanded="false" />
-            <element signature="e#1521#1522#0" expanded="false" />
-            <element signature="e#1550#1551#0" expanded="false" />
-            <element signature="e#1577#1578#0" expanded="false" />
-            <element signature="e#1615#1616#0" expanded="false" />
-            <element signature="e#1647#1648#0" expanded="false" />
-            <element signature="e#1715#1716#0" expanded="false" />
-            <element signature="e#1765#1766#0" expanded="false" />
-            <element signature="e#1805#1806#0" expanded="false" />
-            <element signature="e#1834#1835#0" expanded="false" />
-            <element signature="e#1861#1862#0" expanded="false" />
-            <element signature="e#1899#1900#0" expanded="false" />
-            <element signature="e#1931#1932#0" expanded="false" />
-            <element signature="e#1966#1967#0" expanded="false" />
-            <element signature="e#1996#1997#0" expanded="false" />
-            <element signature="e#2043#2044#0" expanded="false" />
-            <element signature="e#2081#2082#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/Filter/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-43">
@@ -1484,66 +1125,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
-          <folding>
-            <element signature="e#4266#4267#0" expanded="true" />
-            <element signature="e#4307#4308#0" expanded="true" />
-            <element signature="e#6033#6034#0" expanded="true" />
-            <element signature="e#6079#6080#0" expanded="true" />
-            <element signature="e#6911#6912#0" expanded="true" />
-            <element signature="e#6947#6948#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/UserForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="134" column="29" lean-forward="false" selection-start-line="134" selection-start-column="29" selection-end-line="134" selection-end-column="29" />
-          <folding>
-            <element signature="e#1580#1581#0" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
-            <element signature="e#1666#1667#0" expanded="true" />
-            <element signature="e#1712#1713#0" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1784#1785#0" expanded="true" />
-            <element signature="e#1838#1839#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-            <element signature="e#1928#1929#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#2092#2093#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
-            <element signature="e#2160#2161#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2252#2253#0" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2358#2359#0" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
-            <element signature="e#2434#2435#0" expanded="true" />
-            <element signature="e#2469#2470#0" expanded="true" />
-            <element signature="e#2526#2527#0" expanded="true" />
-            <element signature="e#2574#2575#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SecurityController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/PracticeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1564,70 +1149,483 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/GroupForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/GroupPermissionForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/GroupPermissionForm.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="20">
           <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="102" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding>
+            <element signature="e#863#864#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#913#914#0" expanded="false" />
+            <element signature="e#958#959#0" expanded="false" />
+            <element signature="e#985#986#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Group.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="29" column="28" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="195">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="38" selection-end-column="46" />
           <folding>
             <element signature="e#1137#1138#0" expanded="true" />
             <element signature="e#1162#1163#0" expanded="true" />
             <element signature="e#1196#1197#0" expanded="true" />
             <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#2048#2049#0" expanded="true" />
+            <element signature="e#2082#2083#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Permission.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubjectSemesterTeacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/TempController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/GroupForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="37" column="24" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="e#471#472#0" expanded="false" />
+            <element signature="e#498#499#0" expanded="false" />
+            <element signature="e#538#539#0" expanded="false" />
+            <element signature="e#570#571#0" expanded="false" />
+            <element signature="e#608#609#0" expanded="false" />
+            <element signature="e#642#643#0" expanded="false" />
+            <element signature="e#696#697#0" expanded="false" />
+            <element signature="e#742#743#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/UserForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="148" column="37" lean-forward="false" selection-start-line="148" selection-start-column="37" selection-end-line="148" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+          <folding>
+            <element signature="e#3915#3916#0" expanded="true" />
+            <element signature="e#3946#3947#0" expanded="true" />
+            <element signature="e#3997#3998#0" expanded="true" />
+            <element signature="e#4037#4038#0" expanded="true" />
+            <element signature="e#4078#4079#0" expanded="true" />
+            <element signature="e#4122#4123#0" expanded="true" />
+            <element signature="e#4245#4246#0" expanded="true" />
+            <element signature="e#4275#4276#0" expanded="true" />
+            <element signature="e#4319#4320#0" expanded="true" />
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4392#4393#0" expanded="true" />
+            <element signature="e#4423#4424#0" expanded="true" />
+            <element signature="e#4471#4472#0" expanded="true" />
+            <element signature="e#4511#4512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="47" column="25" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="25" />
+          <folding>
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1454#1455#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+            <element signature="e#1772#1773#0" expanded="true" />
+            <element signature="e#1810#1811#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2087#2088#0" expanded="true" />
+            <element signature="e#2149#2150#0" expanded="true" />
+            <element signature="e#2184#2185#0" expanded="true" />
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+            <element signature="e#2339#2340#0" expanded="true" />
+            <element signature="e#2371#2372#0" expanded="true" />
+            <element signature="e#2421#2422#0" expanded="true" />
+            <element signature="e#2463#2464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/PracticeForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+          <folding>
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1548#1549#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.8.RELEASE/spring-data-commons-2.0.8.RELEASE.jar!/org/springframework/data/querydsl/QuerydslPredicateExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/ThreadConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="24" column="42" lean-forward="true" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="67" column="57" lean-forward="false" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/authentication/RESTAuthenticationFailureHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/authentication/RESTAuthenticationSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.6.RELEASE/spring-security-core-5.0.6.RELEASE.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/authentication/AuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/authentication/RESTAuthenticationEntryPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/CsrfGrantingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/AppConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/jre/lib/rt.jar!/java/security/Principal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Practice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2373#2374#0" expanded="true" />
+            <element signature="e#2404#2405#0" expanded="true" />
+            <element signature="e#2455#2456#0" expanded="true" />
+            <element signature="e#2495#2496#0" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2580#2581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/PracticeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding>
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <caret line="156" column="78" lean-forward="false" selection-start-line="156" selection-start-column="55" selection-end-line="156" selection-end-column="78" />
           <folding>
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#894#895#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Dds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/DdsForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="82" column="41" lean-forward="false" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
+          <folding>
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1143#1144#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/DdsRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/GroupController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="108" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/PracticeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="165" column="121" lean-forward="true" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="121" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="30" column="59" lean-forward="false" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+          <folding>
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/DdsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/DdsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="185" column="9" lean-forward="false" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="65" column="97" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="97" />
+          <folding>
+            <element signature="e#4786#4787#0" expanded="true" />
+            <element signature="e#4827#4828#0" expanded="true" />
+            <element signature="e#6553#6554#0" expanded="true" />
+            <element signature="e#6599#6600#0" expanded="true" />
+            <element signature="e#7431#7432#0" expanded="true" />
+            <element signature="e#7467#7468#0" expanded="true" />
+            <element signature="e#7594#7595#0" expanded="true" />
+            <element signature="e#7626#7627#0" expanded="true" />
+            <element signature="e#7881#7882#0" expanded="true" />
+            <element signature="e#7921#7922#0" expanded="true" />
+            <element signature="e#7994#7995#0" expanded="true" />
+            <element signature="e#8052#8053#0" expanded="true" />
+            <element signature="e#8093#8094#0" expanded="true" />
+            <element signature="e#8124#8125#0" expanded="true" />
+            <element signature="e#8178#8179#0" expanded="true" />
+            <element signature="e#8218#8219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
-          <caret line="118" column="40" lean-forward="true" selection-start-line="118" selection-start-column="40" selection-end-line="118" selection-end-column="40" />
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#1612#1613#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#1682#1683#0" expanded="true" />
+            <element signature="e#1711#1712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/form/MessageForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

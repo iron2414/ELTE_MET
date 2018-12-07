@@ -9,3 +9,25 @@ INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES
 INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_GROUP_LIST');
 INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_GROUP_DELETE');
 INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_GROUP_UPDATE');
+
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_SUBJECT_GET');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_SUBJECT_LIST');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_SUBJECT_DELETE');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_SUBJECT_CREATE');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_SUBJECT_UPDATE');
+
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_PRACTICE_GET');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_PRACTICE_LIST');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_PRACTICE_DELETE');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_PRACTICE_CREATE');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_PRACTICE_UPDATE');
+
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_DDS_GET');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_DDS_LIST');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_DDS_DELETE');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_DDS_CREATE');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_DDS_UPDATE');
+
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_MESSAGE_GET');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_MESSAGE_LIST');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_MESSAGE_CREATE');
