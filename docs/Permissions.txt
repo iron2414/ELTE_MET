@@ -30,4 +30,5 @@ INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES
 
 INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_MESSAGE_GET');
 INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_MESSAGE_LIST');
+INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_MESSAGE_MYLIST');
 INSERT INTO `security_permission` (`id`, `description`, `module`, `name`) VALUES (NULL, NULL, NULL, 'ROLE_MESSAGE_CREATE');

@@ -1,21 +1,42 @@
 package app.form;
 
-import app.entity.Message;
+import app.entity.Dds;
+import org.hibernate.validator.constraints.SafeHtml;
 
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 public class MessageForm {
 
-    @NotNull
-    private Integer durability;
+    private Long practice;
 
-    public Message execute() {
-        Message message = new Message();
-        return execute(message);
+    private Long subject;
+
+    @NotNull
+    @SafeHtml
+    private String content;
+
+    public Long getPractice() {
+        return practice;
     }
 
-    public Message execute(Message message) {
-        return message;
+    public void setPractice(Long practice) {
+        this.practice = practice;
+    }
+
+    public Long getSubject() {
+        return subject;
+    }
+
+    public void setSubject(Long subject) {
+        this.subject = subject;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
     }
 }

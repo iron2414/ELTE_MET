@@ -2,77 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="f11d966b-74ec-403c-ac40-0d684a13cd35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/controller/DdsController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/controller/MessageController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/controller/PracticeController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/entity/DdsRepositoryImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/form/DdsForm.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/form/MessageForm.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/app/form/PracticeForm.java" />
       <change beforePath="$PROJECT_DIR$/../docs/PAD.docx" afterPath="$PROJECT_DIR$/../docs/PAD.docx" />
       <change beforePath="$PROJECT_DIR$/../docs/Permissions.txt" afterPath="$PROJECT_DIR$/../docs/Permissions.txt" />
-      <change beforePath="$PROJECT_DIR$/../docs/TesztCurlBodies.txt" afterPath="$PROJECT_DIR$/../docs/TesztCurlBodies.txt" />
+      <change beforePath="$PROJECT_DIR$/../docs/~$PAD.docx" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/GroupController.java" afterPath="$PROJECT_DIR$/src/main/java/app/controller/GroupController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" afterPath="$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Dds.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Dds.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Group.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Group.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Message.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Message.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Practice.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Practice.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/PracticeRepository.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/PracticeRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/Subject.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacherRepository.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/DdsRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacherRepositoryImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" afterPath="$PROJECT_DIR$/src/main/java/app/form/SubjectForm.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/AppConf.java" afterPath="$PROJECT_DIR$/src/main/java/config/AppConf.java" />
-      <change beforePath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/ELTE_MET-1.0-SNAPSHOT.jar.original" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/GroupController.class" afterPath="$PROJECT_DIR$/target/classes/app/controller/GroupController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/SubjectController.class" afterPath="$PROJECT_DIR$/target/classes/app/controller/SubjectController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/app/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Dds.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Dds.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/ExamRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/ExamRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/ExamRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/ExamRepositoryImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Group.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Group.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/GroupRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/GroupRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/GroupRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/GroupRepositoryImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Message.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Message.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/controller/MessageController.java" afterPath="$PROJECT_DIR$/src/main/java/app/controller/MessageController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/entity/MessageRepository.java" afterPath="$PROJECT_DIR$/src/main/java/app/entity/MessageRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/form/MessageForm.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/MessageController.class" afterPath="$PROJECT_DIR$/target/classes/app/controller/MessageController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/app/entity/MessageRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/MessageRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/MessageRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/MessageRepositoryImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Permission.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Permission.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Practice.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Practice.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/PracticeRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/PracticeRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/PracticeRepositoryImpl.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/PracticeRepositoryImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QDds.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QDds.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QDocument.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QDocument.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QGroup.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QGroup.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QPermission.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QPermission.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QPractice.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QPractice.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QSubject.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QSubject.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QSubjectSemesterTeacher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/QUser.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/QUser.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Subject.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/Subject.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/SubjectRepository.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/SubjectRepository.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/SubjectSemesterTeacher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/SubjectSemesterTeacherRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/SubjectSemesterTeacherRepositoryImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/app/entity/User.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/form/GroupForm.class" afterPath="$PROJECT_DIR$/target/classes/app/form/GroupForm.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/form/SubjectForm.class" afterPath="$PROJECT_DIR$/target/classes/app/form/SubjectForm.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/AppConf.class" afterPath="$PROJECT_DIR$/target/classes/config/AppConf.class" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QDds.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QDds.java" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QDocument.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QDocument.java" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QGroup.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QGroup.java" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPermission.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPermission.java" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPractice.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QPractice.java" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubject.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubject.java" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubjectSemesterTeacher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QUser.java" afterPath="$PROJECT_DIR$/target/generated-sources/java/app/entity/QUser.java" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/form/MessageForm.class" afterPath="$PROJECT_DIR$/target/classes/app/form/MessageForm.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -172,52 +111,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="65" column="97" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="97" />
-              <folding>
-                <element signature="e#4786#4787#0" expanded="true" />
-                <element signature="e#4827#4828#0" expanded="true" />
-                <element signature="e#6553#6554#0" expanded="true" />
-                <element signature="e#6599#6600#0" expanded="true" />
-                <element signature="e#7431#7432#0" expanded="true" />
-                <element signature="e#7467#7468#0" expanded="true" />
-                <element signature="e#7594#7595#0" expanded="true" />
-                <element signature="e#7626#7627#0" expanded="true" />
-                <element signature="e#7881#7882#0" expanded="true" />
-                <element signature="e#7921#7922#0" expanded="true" />
-                <element signature="e#7994#7995#0" expanded="true" />
-                <element signature="e#8052#8053#0" expanded="true" />
-                <element signature="e#8093#8094#0" expanded="true" />
-                <element signature="e#8124#8125#0" expanded="true" />
-                <element signature="e#8178#8179#0" expanded="true" />
-                <element signature="e#8218#8219#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DdsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/DdsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="185" column="9" lean-forward="false" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="e#1594#1595#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="799">
+              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="e#1612#1613#0" expanded="true" />
                 <element signature="e#1641#1642#0" expanded="true" />
@@ -228,14 +126,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MessageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/MessageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="49" />
+            <state relative-caret-position="326">
+              <caret line="123" column="46" lean-forward="false" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Exam.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Exam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -243,48 +151,21 @@
       <file leaf-file-name="MessageForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/form/MessageForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="275">
+              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DdsRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/DdsRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubjectRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="30" column="59" lean-forward="false" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
-              <folding>
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1273#1274#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PracticeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/PracticeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="165" column="121" lean-forward="true" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="121" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -293,8 +174,8 @@
       <file leaf-file-name="GroupController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/GroupController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="108" selection-end-column="51" />
+            <state relative-caret-position="173">
+              <caret line="58" column="65" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="58" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -313,7 +194,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dateOf</find>
       <find>superAd,om</find>
       <find>superad</find>
       <find>isSuperAdmin</find>
@@ -327,7 +207,6 @@
       <find>ManyToMany</find>
       <find>subject_s</find>
       <find>whic</find>
-      <find>postAction</find>
       <find>Subject</find>
       <find>SUBJECT</find>
       <find>addStude</find>
@@ -343,6 +222,8 @@
       <find>cgetAction</find>
       <find>deleted</find>
       <find>DDS</find>
+      <find>getAction</find>
+      <find>postAction</find>
     </findStrings>
     <replaceStrings>
       <replace>Practice</replace>
@@ -377,7 +258,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/app/controller/SecurityController.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/SubjectRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Form/Form.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -396,7 +276,6 @@
         <option value="$PROJECT_DIR$/src/main/java/app/entity/ExamRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/ExamRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/MessageRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/app/entity/MessageRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/dds.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/SecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/TempController.java" />
@@ -426,8 +305,10 @@
         <option value="$PROJECT_DIR$/src/main/java/app/entity/DdsRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/DdsController.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/entity/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/entity/MessageRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/form/MessageForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/app/controller/ExamController.java" />
       </list>
     </option>
   </component>
@@ -485,53 +366,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -637,6 +471,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -659,6 +494,52 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="trunk" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="trunk" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -668,7 +549,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="PracticeCon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/PracticeController.java&#10;Practic&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/entity/Practice.java&#10;PracticeRepos&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/entity/PracticeRepository.java&#10;SubjectForm&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/form/SubjectForm.java&#10;GroupFo&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/form/GroupForm.java&#10;tempcon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/TempController.java&#10;dds&#9;PSI&#9;JAVA://app.entity.Dds&#10;Application&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/Application.java&#10;UserRep&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/entity/UserRepository.java&#10;pom.xml&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/pom.xml&#10;TempCon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/TempController.java&#10;AppErrorControllerű&#9;PSI&#9;JAVA://util.AppErrorController&#10;pom.x&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/gdsgui-java/pom.xml&#10;UserRepo&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/gdsgui-java/src/main/java/app/entity/UserRepository.java&#10;UserCont&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;pom&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/pom.xml&#10;Applicat&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCon&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;PageNotFoundEx&#9;PSI&#9;JAVA://exception.PageNotFoundException&#10;UserController&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;UserReposi&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/UserRepository.java&#10;QuerydslPredicateArgumentResolver&#9;PSI&#9;JAVA://org.springframework.data.web.querydsl.QuerydslPredicateArgumentResolver&#10;Permission&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/Permission.java" />
+    <property name="SearchEverywhereHistoryKey" value="MessageForm&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/form/MessageForm.java&#10;PracticeCon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/PracticeController.java&#10;Practic&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/entity/Practice.java&#10;PracticeRepos&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/entity/PracticeRepository.java&#10;SubjectForm&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/form/SubjectForm.java&#10;GroupFo&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/form/GroupForm.java&#10;tempcon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/TempController.java&#10;dds&#9;PSI&#9;JAVA://app.entity.Dds&#10;Application&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/Application.java&#10;UserRep&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/entity/UserRepository.java&#10;pom.xml&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/pom.xml&#10;TempCon&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/elte_met/src/main/java/app/controller/TempController.java&#10;AppErrorControllerű&#9;PSI&#9;JAVA://util.AppErrorController&#10;pom.x&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/ELTE_MET/gdsgui-java/pom.xml&#10;UserRepo&#9;FILE&#9;file://C:/Users/iron2414/Desktop/Projects/gdsgui-java/src/main/java/app/entity/UserRepository.java&#10;UserCont&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;pom&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/pom.xml&#10;Applicat&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/Application.java&#10;UserCon&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;PageNotFoundEx&#9;PSI&#9;JAVA://exception.PageNotFoundException&#10;UserController&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/controller/UserController.java&#10;UserReposi&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/UserRepository.java&#10;QuerydslPredicateArgumentResolver&#9;PSI&#9;JAVA://org.springframework.data.web.querydsl.QuerydslPredicateArgumentResolver&#10;Permission&#9;FILE&#9;file://Y:/workspace/gdsgui-java/trunk/src/main/java/app/entity/Permission.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535718260220" />
@@ -685,8 +566,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="app.form" />
       <recent name="app.controller" />
+      <recent name="app.form" />
       <recent name="app.entity" />
       <recent name="config" />
     </key>
@@ -936,22 +817,24 @@
       <workItem from="1543752644741" duration="1170000" />
       <workItem from="1544100855781" duration="8164000" />
       <workItem from="1544200638608" duration="15835000" />
+      <workItem from="1544269350226" duration="1477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215762000" />
+    <option name="totallyTimeSpent" value="217239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4882943" sideWeight="0.12633263" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4882943" sideWeight="0.13006397" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10554371" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32622603" sideWeight="0.21568628" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.2570806" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39822024" sideWeight="0.9104478" order="3" side_tool="false" content_ui="tabs" />
@@ -962,14 +845,13 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4882943" sideWeight="0.87366736" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4882943" sideWeight="0.86993605" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.4989339" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.49946696" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32622603" sideWeight="0.78431374" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.7429194" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.49946696" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -979,6 +861,7 @@
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1019,22 +902,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/MessageRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/ExamRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Document.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1082,14 +949,6 @@
             <element signature="e#2540#2541#0" expanded="false" />
             <element signature="e#2578#2579#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Exam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="14" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,34 +1036,20 @@
         <state relative-caret-position="195">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="38" selection-end-column="46" />
           <folding>
-            <element signature="e#1137#1138#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
-            <element signature="e#2048#2049#0" expanded="true" />
-            <element signature="e#2082#2083#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="false" />
+            <element signature="e#1162#1163#0" expanded="false" />
+            <element signature="e#1196#1197#0" expanded="false" />
+            <element signature="e#1224#1225#0" expanded="false" />
+            <element signature="e#1670#1671#0" expanded="false" />
+            <element signature="e#1716#1717#0" expanded="false" />
+            <element signature="e#2048#2049#0" expanded="false" />
+            <element signature="e#2082#2083#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubjectSemesterTeacher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectSemesterTeacher.java" />
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/java/app/entity/QSubjectSemesterTeacher.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/TempController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1274,30 +1119,30 @@
         <state relative-caret-position="156">
           <caret line="47" column="25" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="25" />
           <folding>
-            <element signature="e#1420#1421#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1683#1684#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1772#1773#0" expanded="true" />
-            <element signature="e#1810#1811#0" expanded="true" />
-            <element signature="e#1873#1874#0" expanded="true" />
-            <element signature="e#1927#1928#0" expanded="true" />
-            <element signature="e#1974#1975#0" expanded="true" />
-            <element signature="e#2016#2017#0" expanded="true" />
-            <element signature="e#2087#2088#0" expanded="true" />
-            <element signature="e#2149#2150#0" expanded="true" />
-            <element signature="e#2184#2185#0" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2263#2264#0" expanded="true" />
-            <element signature="e#2303#2304#0" expanded="true" />
-            <element signature="e#2339#2340#0" expanded="true" />
-            <element signature="e#2371#2372#0" expanded="true" />
-            <element signature="e#2421#2422#0" expanded="true" />
-            <element signature="e#2463#2464#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="false" />
+            <element signature="e#1454#1455#0" expanded="false" />
+            <element signature="e#1509#1510#0" expanded="false" />
+            <element signature="e#1555#1556#0" expanded="false" />
+            <element signature="e#1594#1595#0" expanded="false" />
+            <element signature="e#1628#1629#0" expanded="false" />
+            <element signature="e#1683#1684#0" expanded="false" />
+            <element signature="e#1729#1730#0" expanded="false" />
+            <element signature="e#1772#1773#0" expanded="false" />
+            <element signature="e#1810#1811#0" expanded="false" />
+            <element signature="e#1873#1874#0" expanded="false" />
+            <element signature="e#1927#1928#0" expanded="false" />
+            <element signature="e#1974#1975#0" expanded="false" />
+            <element signature="e#2016#2017#0" expanded="false" />
+            <element signature="e#2087#2088#0" expanded="false" />
+            <element signature="e#2149#2150#0" expanded="false" />
+            <element signature="e#2184#2185#0" expanded="false" />
+            <element signature="e#2215#2216#0" expanded="false" />
+            <element signature="e#2263#2264#0" expanded="false" />
+            <element signature="e#2303#2304#0" expanded="false" />
+            <element signature="e#2339#2340#0" expanded="false" />
+            <element signature="e#2371#2372#0" expanded="false" />
+            <element signature="e#2421#2422#0" expanded="false" />
+            <element signature="e#2463#2464#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1307,30 +1152,30 @@
         <state relative-caret-position="105">
           <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
           <folding>
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1388#1389#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-            <element signature="e#1456#1457#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
-            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="false" />
+            <element signature="e#682#683#0" expanded="false" />
+            <element signature="e#726#727#0" expanded="false" />
+            <element signature="e#764#765#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="false" />
+            <element signature="e#827#828#0" expanded="false" />
+            <element signature="e#872#873#0" expanded="false" />
+            <element signature="e#908#909#0" expanded="false" />
+            <element signature="e#944#945#0" expanded="false" />
+            <element signature="e#975#976#0" expanded="false" />
+            <element signature="e#1024#1025#0" expanded="false" />
+            <element signature="e#1064#1065#0" expanded="false" />
+            <element signature="e#1096#1097#0" expanded="false" />
+            <element signature="e#1126#1127#0" expanded="false" />
+            <element signature="e#1170#1171#0" expanded="false" />
+            <element signature="e#1208#1209#0" expanded="false" />
+            <element signature="e#1248#1249#0" expanded="false" />
+            <element signature="e#1283#1284#0" expanded="false" />
+            <element signature="e#1340#1341#0" expanded="false" />
+            <element signature="e#1388#1389#0" expanded="false" />
+            <element signature="e#1424#1425#0" expanded="false" />
+            <element signature="e#1456#1457#0" expanded="false" />
+            <element signature="e#1506#1507#0" expanded="false" />
+            <element signature="e#1548#1549#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1339,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1387,7 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="45" column="32" lean-forward="false" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1458,16 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="156" column="78" lean-forward="false" selection-start-line="156" selection-start-column="55" selection-end-line="156" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Dds.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612">
@@ -1481,30 +1313,30 @@
         <state relative-caret-position="207">
           <caret line="82" column="41" lean-forward="false" selection-start-line="82" selection-start-column="41" selection-end-line="82" selection-end-column="41" />
           <folding>
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1028#1029#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1143#1144#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1260#1261#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="false" />
+            <element signature="e#575#576#0" expanded="false" />
+            <element signature="e#628#629#0" expanded="false" />
+            <element signature="e#672#673#0" expanded="false" />
+            <element signature="e#710#711#0" expanded="false" />
+            <element signature="e#743#744#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#840#841#0" expanded="false" />
+            <element signature="e#869#870#0" expanded="false" />
+            <element signature="e#896#897#0" expanded="false" />
+            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#966#967#0" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1028#1029#0" expanded="false" />
+            <element signature="e#1072#1073#0" expanded="false" />
+            <element signature="e#1110#1111#0" expanded="false" />
+            <element signature="e#1143#1144#0" expanded="false" />
+            <element signature="e#1174#1175#0" expanded="false" />
+            <element signature="e#1220#1221#0" expanded="false" />
+            <element signature="e#1260#1261#0" expanded="false" />
+            <element signature="e#1289#1290#0" expanded="false" />
+            <element signature="e#1316#1317#0" expanded="false" />
+            <element signature="e#1354#1355#0" expanded="false" />
+            <element signature="e#1386#1387#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1514,26 +1346,16 @@
         <state relative-caret-position="136">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/GroupController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="108" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#215#216#0" expanded="false" />
+            <element signature="e#277#278#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/PracticeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="165" column="121" lean-forward="true" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="121" />
+        <state relative-caret-position="2363">
+          <caret line="165" column="121" lean-forward="false" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="121" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1542,7 +1364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/SubjectRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="323">
           <caret line="30" column="59" lean-forward="false" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
           <folding>
             <element signature="e#1213#1214#0" expanded="true" />
@@ -1553,7 +1375,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/DdsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
+        <state relative-caret-position="170">
           <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1563,7 +1385,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/DdsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="2686">
           <caret line="185" column="9" lean-forward="false" selection-start-line="185" selection-start-column="9" selection-end-line="185" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1575,8 +1397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="65" column="97" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="97" />
+        <state relative-caret-position="969">
+          <caret line="65" column="97" lean-forward="false" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="97" />
           <folding>
             <element signature="e#4786#4787#0" expanded="true" />
             <element signature="e#4827#4828#0" expanded="true" />
@@ -1598,10 +1420,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/MessageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="48" lean-forward="false" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state relative-caret-position="799">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="e#1612#1613#0" expanded="true" />
             <element signature="e#1641#1642#0" expanded="true" />
@@ -1611,24 +1441,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="171" column="1" lean-forward="true" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/form/MessageForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="275">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/GroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="58" column="65" lean-forward="false" selection-start-line="57" selection-start-column="45" selection-end-line="58" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/MessageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="64" column="49" lean-forward="false" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="49" />
+        <state relative-caret-position="326">
+          <caret line="123" column="46" lean-forward="false" selection-start-line="123" selection-start-column="46" selection-end-line="123" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/ExamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Exam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
