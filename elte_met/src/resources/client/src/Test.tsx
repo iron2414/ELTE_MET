@@ -19,6 +19,8 @@ class State {
         | "practice"
         | "group"
         | "exception" = "user";
+    loggedIn = true;
+    teacher = false;
 }
 
 export default class Test extends ExtendedComponent<{}, State> {
@@ -28,27 +30,6 @@ export default class Test extends ExtendedComponent<{}, State> {
     constructor(props: {}) {
         super(props);
         this.api = new ElteMetApi();
-    }
-
-    async componentDidMount() {
-        // const api = new BackendApi();
-        // const { api } = this;
-        // try {
-        //     const result = await api.getUsers();
-        //     console.log("res", result);
-        //     if (result.success) {
-        //         await this.setStateAsync({ users: result });
-        //     }
-        //     // const r = await api.logIn("admin", "admin");
-        // } catch (e) {
-        //     if ("message" in e) {
-        //         const exception: Exception = e;
-        //         await this.setState({ exception });
-        //         console.log(JSON.stringify(exception.trace));
-        //     } else {
-        //         throw e;
-        //     }
-        // }
     }
 
     handleRequest = async <T extends any>(
@@ -96,8 +77,32 @@ export default class Test extends ExtendedComponent<{}, State> {
     render() {
         const { exception, page } = this.state;
 
+        if (!this.state.loggedIn) {
+            return (
+                <LoginScreen
+                    api={this.api}
+                    requestHandler={async e => {
+                        const x = await e();
+
+                        if (x.success) {
+                            await this.setStateAsync({
+                                loggedIn: true,
+                            });
+                        }
+
+                        return this.handleRequest(e);
+                    }}
+                />
+            );
+        }
+
         return (
             <div className={undefined}>
+                <div
+                    className={css.header}
+                    style={{ backgroundImage: "url(img/header.png)" }}
+                />
+
                 {exception && (
                     <ExceptionToast
                         message={exception.message}
@@ -105,9 +110,9 @@ export default class Test extends ExtendedComponent<{}, State> {
                         className={exception.className}
                     />
                 )}
+
                 <div className={css.buttons}>
                     {([
-                        "login",
                         "user",
                         "subject",
                         "dds",
@@ -115,132 +120,147 @@ export default class Test extends ExtendedComponent<{}, State> {
                         "practice",
                         "group",
                     ] as State["page"][]).map((name, i) => (
-                        <button
-                            key={i}
-                            onClick={() => this.setState({ page: name })}
-                        >
-                            {name}
-                        </button>
+                        <>
+                            <button
+                                key={i}
+                                onClick={() => this.setState({ page: name })}
+                            >
+                                {name}
+                            </button>
+                            {"|"}
+                        </>
                     ))}
                 </div>
 
-                {(() => {
-                    switch (page) {
-                        case "user":
-                            return (
-                                <Crud
-                                    apiHandler={this.api.user}
-                                    requestHandler={this.handleRequest}
-                                    constructor={() =>
-                                        ({
-                                            name: "TesztPost",
-                                            taxNumber: "1786",
-                                            degree: "bsc",
-                                            phoneNumber: "06304481282",
-                                            bankAccountNumber: "7776655544",
-                                            email: "abc@def.com",
-                                            nationality: "HUN",
-                                            username: "TesztPoszt",
-                                            isSuperAdmin: false,
-                                            dateOfBirth: "2018-05-12",
-                                        } as any)
-                                    }
-                                />
-                            );
+                <div className={css.mainContent}>
+                    {(() => {
+                        switch (page) {
+                            case "user":
+                                return (
+                                    <Crud
+                                        apiHandler={this.api.user}
+                                        requestHandler={this.handleRequest}
+                                        constructor={() =>
+                                            ({
+                                                name: "Minta Péter",
+                                                taxNumber: "29572910",
+                                                degree: "BSc",
+                                                phoneNumber: "06304481282",
+                                                bankAccountNumber: "7776655544",
+                                                email: "abc@def.com",
+                                                nationality: "HUN",
+                                                username: "pminta",
+                                                isSuperAdmin: false,
+                                                dateOfBirth: new Date(
+                                                    "2018-05-12",
+                                                ),
+                                            } as any)
+                                        }
+                                    />
+                                );
 
-                        case "subject":
-                            return (
-                                <Crud
-                                    apiHandler={this.api.subject}
-                                    requestHandler={this.handleRequest}
-                                    constructor={() =>
-                                        ({
-                                            name: "TesztSubject",
-                                            credit: 1,
-                                            hasPractice: 1,
-                                            isNecessary: 1,
-                                            lecutresPerWeek: 1,
-                                            recommendedSemester: 1,
-                                            semester: "2018-2019 osz",
-                                            whichRoom: "0-804",
-                                            lecturer: new Lookup(this.api.user),
-                                        } as any)
-                                    }
-                                />
-                            );
+                            case "subject":
+                                return (
+                                    <Crud
+                                        apiHandler={this.api.subject}
+                                        requestHandler={this.handleRequest}
+                                        constructor={() =>
+                                            ({
+                                                name:
+                                                    "Bevezetés a minta tantárgyba 2. EA.",
+                                                credit: 4,
+                                                hasPractice: true,
+                                                isNecessary: true,
+                                                lecutresPerWeek: 1,
+                                                recommendedSemester: 2,
+                                                semester: "2018-2019 ősz",
+                                                whichRoom:
+                                                    "0-621 Bolyai János terem",
+                                                lecturer: new Lookup(
+                                                    this.api.user,
+                                                ),
+                                            } as any)
+                                        }
+                                    />
+                                );
 
-                        case "login":
-                            return (
-                                <LoginScreen
-                                    api={this.api}
-                                    requestHandler={this.handleRequest}
-                                />
-                            );
+                            case "login":
+                                return (
+                                    <LoginScreen
+                                        api={this.api}
+                                        requestHandler={this.handleRequest}
+                                    />
+                                );
 
-                        case "dds":
-                            return (
-                                <Crud
-                                    apiHandler={this.api.dds}
-                                    requestHandler={this.handleRequest}
-                                    constructor={() =>
-                                        ({
-                                            date: "2018-10-01T09:45:00.000",
-                                            durability: 90,
-                                            seatNumber: 30,
-                                            practice: 2,
-                                        } as any)
-                                    }
-                                />
-                            );
+                            case "dds":
+                                return (
+                                    <Crud
+                                        apiHandler={this.api.dds}
+                                        requestHandler={this.handleRequest}
+                                        constructor={() =>
+                                            ({
+                                                date: new Date(
+                                                    "2018-10-01T09:45:00.000",
+                                                ),
+                                                durability: 90,
+                                                seatNumber: 30,
+                                                practice: 2,
+                                            } as any)
+                                        }
+                                    />
+                                );
 
-                        case "message":
-                            return (
-                                <Crud
-                                    apiHandler={this.api.message}
-                                    requestHandler={this.handleRequest}
-                                    constructor={() => ({} as any)}
-                                />
-                            );
+                            case "message":
+                                return (
+                                    <Crud
+                                        apiHandler={this.api.message}
+                                        requestHandler={this.handleRequest}
+                                        constructor={() => ({} as any)}
+                                    />
+                                );
 
-                        case "practice":
-                            return (
-                                <Crud
-                                    apiHandler={this.api.practice}
-                                    requestHandler={this.handleRequest}
-                                    constructor={() =>
-                                        ({
-                                            subject: new Lookup(
-                                                this.api.subject,
-                                            ),
-                                            credit: 1,
-                                            teacher: new Lookup(this.api.user),
-                                            hasTasks: 1,
-                                            howManyTasks: 1,
-                                            whichRoom: "0-804",
-                                        } as any)
-                                    }
-                                />
-                            );
+                            case "practice":
+                                return (
+                                    <Crud
+                                        apiHandler={this.api.practice}
+                                        requestHandler={this.handleRequest}
+                                        constructor={() =>
+                                            ({
+                                                subject: new Lookup(
+                                                    this.api.subject,
+                                                ),
+                                                credit: 1,
+                                                teacher: new Lookup(
+                                                    this.api.user,
+                                                ),
+                                                hasTasks: true,
+                                                howManyTasks: 1,
+                                                whichRoom: "0-804",
+                                            } as any)
+                                        }
+                                    />
+                                );
 
-                        case "group":
-                            return (
-                                <Crud
-                                    apiHandler={this.api.group}
-                                    requestHandler={this.handleRequest}
-                                    constructor={() =>
-                                        ({
-                                            name: "TesztGroup",
-                                            description:
-                                                "TesztGroupDescription",
-                                        } as any)
-                                    }
-                                />
-                            );
+                            case "group":
+                                return (
+                                    <Crud
+                                        apiHandler={this.api.group}
+                                        requestHandler={this.handleRequest}
+                                        constructor={() =>
+                                            ({
+                                                name: "TesztGroup",
+                                                description:
+                                                    "TesztGroupDescription",
+                                            } as any)
+                                        }
+                                    />
+                                );
 
-                        case "exception":
-                            <p>Some error happened.</p>;
-                    }
-                })()}
+                            case "exception":
+                                <p>Some error happened.</p>;
+                        }
+                    })()}
+                </div>
             </div>
         );
     }

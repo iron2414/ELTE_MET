@@ -2,68 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f11d966b-74ec-403c-ac40-0d684a13cd35" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/client/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/client/config-overrides.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/client/src/Test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/client/src/Test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/client/src/api/manual/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/client/src/api/manual/api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/client/src/components/crud/Crud.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/client/src/components/crud/Crud.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/client/src/components/editor/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/client/src/components/editor/Editor.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/client/src/components/grid/Grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/client/src/components/grid/Grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/client/src/components/grid/Grid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/client/src/components/grid/Grid.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/DdsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/DdsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/GroupController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/GroupController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/SecurityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/SecurityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/TempController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/TempController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Document.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/Document.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/DocumentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/DocumentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/DocumentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/DocumentRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/Exam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/Group.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/GroupRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/GroupRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/GroupRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/GroupRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/Permission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/PermissionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/PermissionRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/SubjectRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/SubjectRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/entity/UserRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/entity/UserRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/form/GroupForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/form/GroupForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/form/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/form/LoginForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/form/UserForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/form/UserForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/CsrfGrantingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/CsrfGrantingFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/CustomUsernamePasswordAuthenticationFilter$AuthReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/CustomUsernamePasswordAuthenticationFilter$AuthReq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/CustomUsernamePasswordAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/CustomUsernamePasswordAuthenticationFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/MyUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/MyUserDetailsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/SecurityConfiguration$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/SecurityConfiguration$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/SecurityConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/ThreadConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/ThreadConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/authentication/AuthenticationProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/authentication/AuthenticationProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/authentication/RESTAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/authentication/RESTAuthenticationEntryPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/authentication/RESTAuthenticationFailureHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/authentication/RESTAuthenticationFailureHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/authentication/RESTAuthenticationSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/authentication/RESTAuthenticationSuccessHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/authentication/RESTLogoutHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/authentication/RESTLogoutHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exception/ConstraintViolationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exception/ConstraintViolationException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exception/FormException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exception/FormException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exception/UserNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exception/UserNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/AppErrorController$ErrorObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/AppErrorController$ErrorObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/AppErrorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/AppErrorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Filter/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Filter/Filter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Filter/Predicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Filter/Predicate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Filter/PredicatesBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Filter/PredicatesBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Filter/SearchCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Filter/SearchCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Form/Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Form/Form.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Response/AbstractResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Response/AbstractResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Response/DataResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Response/DataResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Response/ExceptionResponse$MyException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Response/ExceptionResponse$MyException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Response/ExceptionResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Response/ExceptionResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Response/FormResponse$Form.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Response/FormResponse$Form.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Response/FormResponse$Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Response/FormResponse$Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Response/FormResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Response/FormResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/util/Response/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/util/Response/Response.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -188,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/GroupController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="914">
-              <caret line="150" column="5" lean-forward="true" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+              <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -221,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1470">
-              <caret line="136" column="21" lean-forward="true" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+              <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
               <folding>
                 <element signature="e#3444#3445#0" expanded="true" />
                 <element signature="e#3493#3494#0" expanded="true" />
@@ -257,7 +197,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+              <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -266,7 +206,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1318">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -278,7 +218,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Permission.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -834,12 +774,12 @@
       <workItem from="1544100855781" duration="8164000" />
       <workItem from="1544200638608" duration="15835000" />
       <workItem from="1544269350226" duration="1477000" />
-      <workItem from="1544664963864" duration="7811000" />
+      <workItem from="1544664963864" duration="8192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225050000" />
+    <option name="totallyTimeSpent" value="225431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -1070,6 +1010,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#215#216#0" />
+            <element signature="e#277#278#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1252,7 +1196,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
-          <caret line="136" column="21" lean-forward="true" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+          <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
           <folding>
             <element signature="e#3444#3445#0" expanded="true" />
             <element signature="e#3493#3494#0" expanded="true" />
@@ -1277,7 +1221,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/SubjectController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1318">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1287,14 +1231,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/app/entity/Permission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/GroupController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="914">
-          <caret line="150" column="5" lean-forward="true" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
+          <caret line="150" column="5" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1325,7 +1269,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/app/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="92" column="34" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
+          <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
         </state>
       </provider>
     </entry>

@@ -98,6 +98,23 @@ export default class Editor<T extends Entity> extends ExtendedComponent<
             );
         }
 
+        if (value instanceof Date) {
+            return (
+                <input
+                    type="date"
+                    value={`${value}`}
+                    onChange={async e =>
+                        this.setStateAsync({
+                            entity: {
+                                ...(entity as any),
+                                [k]: e.target.value,
+                            },
+                        })
+                    }
+                />
+            );
+        }
+
         switch (typeof value) {
             case "boolean":
                 return (

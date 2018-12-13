@@ -1,4 +1,70 @@
 .buttons {
-    border: 1px solid gray;
     margin-bottom: 1em;
+
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+    box-shadow: inset 0 -16px 10px 0 rgba(0, 0, 0, 0.295);
+    padding-left: 25px;
+    color: gray;
+}
+
+.buttons button {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-family: serif;
+    box-shadow: inset 0 -5px 10px 0 rgba(255, 255, 255, 0.295);
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+}
+
+button {
+    height: 2em;
+    border-radius: 4px;
+    background-color: rgb(0, 68, 255);
+    font-weight: bold;
+    color: white;
+    border: 0.5px solid blue;
+    box-shadow: inset 0 -5px 10px 0 rgba(255, 255, 255, 0.719);
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+.header {
+    height: 100px;
+    width: 100vw;
+    background-size: auto 100%;
+}
+
+.main-content {
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    box-shadow: inset 0 -5px 10px 0 rgba(0, 0, 0, 0.295);
+    min-height: 400px;
+    overflow-x: scroll;
+    padding: 20px 10px;
+
+    font-size: 8pt;
+}
+
+.main-content table {
+    margin-top: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.main-content table thead {
+    padding-bottom: 6px;
+    background-image: linear-gradient(darkgray, lightgray);
+}
+
+.main-content button {
+    font-size: 8pt !important;
 }

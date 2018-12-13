@@ -177,7 +177,7 @@ export default class Crud<T extends Entity> extends ExtendedComponent<
                         return (
                             <>
                                 <div className={css.buttons}>
-                                    <button onClick={this.create}>+ Add</button>
+                                    <button onClick={this.create}>+ Create New</button>
                                 </div>
                                 <Grid
                                     {...{ entities }}
