@@ -1,0 +1,154 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "No description",
+      "version": "1.0.0",
+      "title": "Untitled"
+    },
+    "consumes": [
+      "application/json"
+    ],
+    "produces": [
+      "application/json"
+    ],
+    "paths": {
+      "/{userId}": {
+        "get": {
+          "parameters": [],
+          "responses": {
+            "200": {
+              "description": "Status 200",
+              "schema": {
+                "$ref": "#/definitions/UserResponse"
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    "definitions": {
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "content": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    },
+                    "permissions": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "enabled": {
+                      "type": "boolean"
+                    },
+                    "superAdmin": {
+                      "type": "boolean"
+                    },
+                    "authorities": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "accountNonExpired": {
+                      "type": "boolean"
+                    },
+                    "accountNonLocked": {
+                      "type": "boolean"
+                    },
+                    "credentialsNonExpired": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              },
+              "pageable": {
+                "type": "object",
+                "properties": {
+                  "sort": {
+                    "type": "object",
+                    "properties": {
+                      "sorted": {
+                        "type": "boolean"
+                      },
+                      "unsorted": {
+                        "type": "boolean"
+                      }
+                    }
+                  },
+                  "offset": {
+                    "type": "number"
+                  },
+                  "pageSize": {
+                    "type": "number"
+                  },
+                  "pageNumber": {
+                    "type": "number"
+                  },
+                  "unpaged": {
+                    "type": "boolean"
+                  },
+                  "paged": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "last": {
+                "type": "boolean"
+              },
+              "totalPages": {
+                "type": "number"
+              },
+              "totalElements": {
+                "type": "number"
+              },
+              "size": {
+                "type": "number"
+              },
+              "number": {
+                "type": "number"
+              },
+              "first": {
+                "type": "boolean"
+              },
+              "sort": {
+                "type": "object",
+                "properties": {
+                  "sorted": {
+                    "type": "boolean"
+                  },
+                  "unsorted": {
+                    "type": "boolean"
+                  }
+                }
+              },
+              "numberOfElements": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "example": "{\n    \"success\": true,\n    \"data\": {\n        \"content\": [\n            {\n                \"id\": 1,\n                \"permissions\": [],\n                \"enabled\": true,\n                \"superAdmin\": true,\n                \"authorities\": [],\n                \"accountNonExpired\": true,\n                \"accountNonLocked\": true,\n                \"credentialsNonExpired\": true\n            }\n        ],\n        \"pageable\": {\n            \"sort\": {\n                \"sorted\": false,\n                \"unsorted\": true\n            },\n            \"offset\": 0,\n            \"pageSize\": 20,\n            \"pageNumber\": 0,\n            \"unpaged\": false,\n            \"paged\": true\n        },\n        \"last\": true,\n        \"totalPages\": 1,\n        \"totalElements\": 1,\n        \"size\": 20,\n        \"number\": 0,\n        \"first\": true,\n        \"sort\": {\n            \"sorted\": false,\n            \"unsorted\": true\n        },\n        \"numberOfElements\": 1\n    }\n}"
+      }
+    }
+  }

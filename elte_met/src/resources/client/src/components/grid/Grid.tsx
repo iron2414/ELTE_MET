@@ -42,7 +42,7 @@ export default class Grid<T extends Entity> extends ExtendedComponent<
 
         this.setStateAsync({
             fields: Object.entries(entities.content[0]).map(([k, v]) => {
-                return { name: k, type: v.constructor };
+                return { name: k, type: v && v.constructor };
             }),
         });
     };

@@ -23,26 +23,26 @@ export class CrudSubpage<T extends Entity> {
         const { name, namePlural } = this;
 
         if (id == null) {
-            return this.parent.get(`/${name}/${namePlural}`);
+            return this.parent.get(`/${namePlural}/${name}`);
         } else {
-            return this.parent.get(`/${name}/${name}/${id}`);
+            return this.parent.get(`/${namePlural}/${name}/${id}`);
         }
     }
 
     public post(entity: T): Promise<Response<never>> {
-        return this.parent.post(`/${this.name}/${this.namePlural}`, entity);
+        return this.parent.post(`/${this.namePlural}/${this.name}`, entity);
     }
 
     public put(entity: T) {
         return this.parent.fetch(
-            `/${this.name}/${this.namePlural}`,
+            `/${this.namePlural}/${this.name}/${entity.id}`,
             "PUT",
             entity,
         );
     }
 
     public delete(id: number) {
-        return this.parent.fetch(`/${this.name}/${id}`, "DELETE");
+        return this.parent.fetch(`/${this.namePlural}/${id}`, "DELETE");
     }
 }
 
@@ -101,11 +101,15 @@ export class ElteMetApi {
     //     return this.get(`/user/user/${id}`);
     // }
 
-    public users = new class extends CrudSubpage<User> {
+    public user = new class extends CrudSubpage<User> {
         constructor(parent: ElteMetApi) {
             super(parent, "user");
         }
     }(this);
 
     public subject = new CrudSubpage<Subject>(this, "subject");
+    public dds = new CrudSubpage<Subject>(this, "dds", "dds");
+    public message = new CrudSubpage<Subject>(this, "message");
+    public practice = new CrudSubpage<Subject>(this, "practice");
+    public group = new CrudSubpage<Subject>(this, "group");
 }

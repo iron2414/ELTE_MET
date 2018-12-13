@@ -4,6 +4,8 @@
 
 .table {
     border-collapse: collapse;
+    width: 100vw;
+    word-break: break-all;
 }
 
 .table tbody,

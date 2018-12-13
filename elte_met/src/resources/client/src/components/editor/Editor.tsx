@@ -1,6 +1,8 @@
 import * as React from "react";
+import { CrudSubpage } from "../../api/manual/api";
 import Entity from "../../api/manual/interfaces/Entity";
 import ExtendedComponent from "../../util/ExtendedComponent";
+import { Lookup } from "../crud/Crud";
 import "./Editor.css";
 
 interface Props<T extends Entity> {
@@ -11,6 +13,7 @@ interface Props<T extends Entity> {
 
 class State<T extends Entity> {
     constructor(public entity: T) {}
+    lookups: { [x: string]: Map<number, string> } = {};
 }
 
 export default class Editor<T extends Entity> extends ExtendedComponent<
@@ -23,6 +26,32 @@ export default class Editor<T extends Entity> extends ExtendedComponent<
         this.state = new State(props.initialValue);
     }
 
+    componentDidMount() {
+        for (const [k, v] of Object.entries(this.state.entity)) {
+            if (v instanceof Lookup && v.source instanceof CrudSubpage) {
+                (async () => {
+                    const resp = await (v.source as CrudSubpage<Entity>).get();
+                    if (resp.success) {
+                        this.setState({
+                            lookups: {
+                                ...this.state.lookups,
+                                [k]: new Map(
+                                    resp.data.content.map(
+                                        e =>
+                                            [
+                                                e.id,
+                                                (e as any).name || `${e.id}`,
+                                            ] as [number, string],
+                                    ),
+                                ),
+                            },
+                        });
+                    }
+                })();
+            }
+        }
+    }
+
     back = () => this.props.onCancel();
 
     confirm = () => this.props.onChange(this.state.entity);
@@ -31,6 +60,39 @@ export default class Editor<T extends Entity> extends ExtendedComponent<
         const { entity } = this.state;
 
         const value = entity[k];
+
+        if (value instanceof Lookup) {
+            return (
+                <select
+                    value={`${value.defaultValue}`}
+                    onChange={async e =>
+                        this.setStateAsync({
+                            entity: {
+                                ...(entity as any),
+                                [k]: new Lookup(
+                                    value.source,
+                                    Number(e.target.value),
+                                    value.isMultiselect,
+                                ),
+                            },
+                        })
+                    }
+                    multiple={value.isMultiselect}
+                >
+                    {[
+                        ...(value.source instanceof CrudSubpage
+                            ? this.state.lookups[k as string] ||
+                              new Map([[-1, "fetching ..."]])
+                            : value.source
+                        ).entries(),
+                    ].map(([value, name]) => (
+                        <option key={value} value={`${value}`}>
+                            {name}
+                        </option>
+                    ))}
+                </select>
+            );
+        }
 
         switch (typeof value) {
             case "boolean":

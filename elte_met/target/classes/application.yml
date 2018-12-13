@@ -4,7 +4,7 @@
 server.port: 8080
 
 #spring.datasource.url: jdbc:mysql://192.168.27.40:3306/java_vn
-spring.datasource.url: jdbc:mysql://127.0.0.1:3306/elte_met
+spring.datasource.url: jdbc:mysql://192.168.64.2:3306/elte_met
 spring.datasource.username: root
 spring.datasource.password:
 

@@ -2,7 +2,7 @@ import * as React from "react";
 import { ElteMetApi } from "./api/manual/api";
 import Exception from "./api/manual/interfaces/Exception";
 import Response from "./api/manual/interfaces/Response";
-import Crud from "./components/crud/Crud";
+import Crud, { Lookup } from "./components/crud/Crud";
 import ExceptionToast from "./components/ExceptionToast";
 import LoginScreen from "./components/LoginScreen";
 import * as css from "./Test.css";
@@ -10,7 +10,15 @@ import ExtendedComponent from "./util/ExtendedComponent";
 
 class State {
     exception?: Exception;
-    page: "login" | "user" | "subject" = "user";
+    page:
+        | "login"
+        | "user"
+        | "subject"
+        | "dds"
+        | "message"
+        | "practice"
+        | "group"
+        | "exception" = "user";
 }
 
 export default class Test extends ExtendedComponent<{}, State> {
@@ -66,7 +74,7 @@ export default class Test extends ExtendedComponent<{}, State> {
         } catch (e) {
             if ("className" in e) {
                 const exception: Exception = e;
-                await this.setStateAsync({ exception });
+                await this.setStateAsync({ exception, page: "exception" });
                 console.log(JSON.stringify(exception.trace));
             } else {
                 throw e;
@@ -98,16 +106,22 @@ export default class Test extends ExtendedComponent<{}, State> {
                     />
                 )}
                 <div className={css.buttons}>
-                    {(["login", "user", "subject"] as State["page"][]).map(
-                        (name, i) => (
-                            <button
-                                key={i}
-                                onClick={() => this.setState({ page: name })}
-                            >
-                                {name}
-                            </button>
-                        ),
-                    )}
+                    {([
+                        "login",
+                        "user",
+                        "subject",
+                        "dds",
+                        "message",
+                        "practice",
+                        "group",
+                    ] as State["page"][]).map((name, i) => (
+                        <button
+                            key={i}
+                            onClick={() => this.setState({ page: name })}
+                        >
+                            {name}
+                        </button>
+                    ))}
                 </div>
 
                 {(() => {
@@ -115,15 +129,20 @@ export default class Test extends ExtendedComponent<{}, State> {
                         case "user":
                             return (
                                 <Crud
-                                    apiHandler={this.api.users}
+                                    apiHandler={this.api.user}
                                     requestHandler={this.handleRequest}
                                     constructor={() =>
                                         ({
-                                            name: "",
-                                            username: "",
-                                            phoneNumber: "",
-                                            email: "",
-                                            isEnabled: true,
+                                            name: "TesztPost",
+                                            taxNumber: "1786",
+                                            degree: "bsc",
+                                            phoneNumber: "06304481282",
+                                            bankAccountNumber: "7776655544",
+                                            email: "abc@def.com",
+                                            nationality: "HUN",
+                                            username: "TesztPoszt",
+                                            isSuperAdmin: 0,
+                                            dateOfBirth: "2018-05-12",
                                         } as any)
                                     }
                                 />
@@ -136,9 +155,17 @@ export default class Test extends ExtendedComponent<{}, State> {
                                     requestHandler={this.handleRequest}
                                     constructor={() =>
                                         ({
-                                            name: "",
-                                            credit: 0,
-                                            lecturer: 0,
+                                            name: "TesztSubject",
+                                            credit: 1,
+                                            hasPractice: 1,
+                                            isNecessary: 1,
+                                            lecutresPerWeek: 1,
+                                            recommendedSemester: 1,
+                                            semester: "2018-2019 osz",
+                                            whichRoom: "0-804",
+                                            lecturer: new Lookup(
+                                                this.api.user,
+                                            ),
                                         } as any)
                                     }
                                 />
@@ -151,6 +178,67 @@ export default class Test extends ExtendedComponent<{}, State> {
                                     requestHandler={this.handleRequest}
                                 />
                             );
+
+                        case "dds":
+                            return (
+                                <Crud
+                                    apiHandler={this.api.dds}
+                                    requestHandler={this.handleRequest}
+                                    constructor={() =>
+                                        ({
+                                            date: "2018-10-01T09:45:00.000",
+                                            durability: 90,
+                                            seatNumber: 30,
+                                            practice: 2,
+                                        } as any)
+                                    }
+                                />
+                            );
+
+                        case "message":
+                            return (
+                                <Crud
+                                    apiHandler={this.api.message}
+                                    requestHandler={this.handleRequest}
+                                    constructor={() => ({} as any)}
+                                />
+                            );
+
+                        case "practice":
+                            return (
+                                <Crud
+                                    apiHandler={this.api.practice}
+                                    requestHandler={this.handleRequest}
+                                    constructor={() =>
+                                        ({
+                                            subject: 3,
+                                            credit: 1,
+                                            teacher: 1,
+                                            hasTasks: 1,
+                                            howManyTasks: 1,
+                                            whichRoom: "0-804",
+                                        } as any)
+                                    }
+                                />
+                            );
+
+                        case "group":
+                            return (
+                                <Crud
+                                    apiHandler={this.api.group}
+                                    requestHandler={this.handleRequest}
+                                    constructor={() =>
+                                        ({
+                                            name: "TesztGroup",
+                                            description:
+                                                "TesztGroupDescription",
+                                        } as any)
+                                    }
+                                />
+                            );
+
+                        case "exception":
+                            <p>Some error happened.</p>;
                     }
                 })()}
             </div>

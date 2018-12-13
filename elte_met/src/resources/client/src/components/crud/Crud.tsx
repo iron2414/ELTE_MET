@@ -25,6 +25,16 @@ class State<T extends Entity> {
     idToDelete?: number;
 }
 
+export class Lookup extends Number {
+    constructor(
+        public source: CrudSubpage<Entity> | Map<number, string>,
+        public defaultValue = 0,
+        public isMultiselect = false,
+    ) {
+        super(defaultValue);
+    }
+}
+
 export default class Crud<T extends Entity> extends ExtendedComponent<
     Props<T>,
     State<T>
