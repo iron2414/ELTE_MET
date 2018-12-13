@@ -1,6 +1,7 @@
 import * as React from "react";
 import ExtendedComponent from "../../util/ExtendedComponent";
 import "./Details.css";
+import View from "./View";
 
 interface Props {
     data: object;
@@ -18,7 +19,7 @@ export default class Details extends ExtendedComponent<Props> {
                 <button onClick={this.back}>Back</button>
                 {Object.entries(data).map(([k, v], i) => (
                     <p key={i}>
-                        {k}: {JSON.stringify(v)}
+                        {k}: <View data={v} />
                     </p>
                 ))}
             </div>

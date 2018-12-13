@@ -1,0 +1,8 @@
+.root {
+}
+
+.atomic {
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    display: inline;
+}

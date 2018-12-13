@@ -61,6 +61,10 @@ export default class Editor<T extends Entity> extends ExtendedComponent<
 
         const value = entity[k];
 
+        if (k == "id") {
+            return `${value}`;
+        }
+
         if (value instanceof Lookup) {
             return (
                 <select

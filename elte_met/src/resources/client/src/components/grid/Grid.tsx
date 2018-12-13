@@ -2,6 +2,7 @@ import * as React from "react";
 import Entity from "../../api/manual/interfaces/Entity";
 import Pageable from "../../api/manual/interfaces/Pageable";
 import ExtendedComponent from "../../util/ExtendedComponent";
+import View from "../details/View";
 import * as css from "./Grid.css";
 
 interface Props<T extends Entity> {
@@ -72,7 +73,9 @@ export default class Grid<T extends Entity> extends ExtendedComponent<
                                 onClick={() => this.selectEntry(data)}
                             >
                                 {Object.values(data).map((data, i) => (
-                                    <td key={i}>{JSON.stringify(data)}</td>
+                                    <td key={i}>
+                                        <View data={data} />
+                                    </td>
                                 ))}
                                 <td>
                                     <button onClick={() => onEdit(data)}>

@@ -141,7 +141,7 @@ export default class Test extends ExtendedComponent<{}, State> {
                                             email: "abc@def.com",
                                             nationality: "HUN",
                                             username: "TesztPoszt",
-                                            isSuperAdmin: 0,
+                                            isSuperAdmin: false,
                                             dateOfBirth: "2018-05-12",
                                         } as any)
                                     }
@@ -163,9 +163,7 @@ export default class Test extends ExtendedComponent<{}, State> {
                                             recommendedSemester: 1,
                                             semester: "2018-2019 osz",
                                             whichRoom: "0-804",
-                                            lecturer: new Lookup(
-                                                this.api.user,
-                                            ),
+                                            lecturer: new Lookup(this.api.user),
                                         } as any)
                                     }
                                 />
@@ -211,9 +209,11 @@ export default class Test extends ExtendedComponent<{}, State> {
                                     requestHandler={this.handleRequest}
                                     constructor={() =>
                                         ({
-                                            subject: 3,
+                                            subject: new Lookup(
+                                                this.api.subject,
+                                            ),
                                             credit: 1,
-                                            teacher: 1,
+                                            teacher: new Lookup(this.api.user),
                                             hasTasks: 1,
                                             howManyTasks: 1,
                                             whichRoom: "0-804",

@@ -67,8 +67,32 @@ export default class Crud<T extends Entity> extends ExtendedComponent<
     onSelect = async (t: T) => {
         const { apiHandler, requestHandler } = this.props;
 
+        const details = await requestHandler(() => apiHandler.get(t.id));
+        if (!details) return;
+
+        const newlyCreatedObject = this.props.constructor();
+
+        for (const [k, v] of Object.entries(newlyCreatedObject) as Iterable<
+            [keyof T, T[keyof T]]
+        >) {
+            if (v instanceof Lookup) {
+                if (k in details) {
+                    // @ts-ignore
+                    newlyCreatedObject[k] = new Lookup(
+                        v.source,
+                        Number(details[k]),
+                        v.isMultiselect,
+                    );
+                } else {
+                    newlyCreatedObject[k] = details[k];
+                }
+            }
+        }
+
+        newlyCreatedObject.id = details.id;
+
         await this.setStateAsync({
-            details: await requestHandler(() => apiHandler.get(t.id)),
+            details: newlyCreatedObject,
         });
     };
 
