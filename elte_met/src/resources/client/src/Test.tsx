@@ -18,7 +18,7 @@ class State {
         | "Practicals"
         | "Groups"
         | "exception" = "Users";
-    loggedIn = true;
+    loggedIn = false;
     teacher = false;
 }
 
