@@ -11,14 +11,13 @@ import ExtendedComponent from "./util/ExtendedComponent";
 class State {
     exception?: Exception;
     page:
-        | "login"
-        | "user"
-        | "subject"
-        | "dds"
-        | "message"
-        | "practice"
-        | "group"
-        | "exception" = "user";
+        | "Users"
+        | "Subjects"
+        | "DDs"
+        | "Messages"
+        | "Practicals"
+        | "Groups"
+        | "exception" = "Users";
     loggedIn = true;
     teacher = false;
 }
@@ -113,12 +112,12 @@ export default class Test extends ExtendedComponent<{}, State> {
 
                 <div className={css.buttons}>
                     {([
-                        "user",
-                        "subject",
-                        "dds",
-                        "message",
-                        "practice",
-                        "group",
+                        "Users",
+                        "Subjects",
+                        "DDs",
+                        "Messages",
+                        "Practicals",
+                        "Groups",
                     ] as State["page"][]).map((name, i) => (
                         <>
                             <button
@@ -135,7 +134,7 @@ export default class Test extends ExtendedComponent<{}, State> {
                 <div className={css.mainContent}>
                     {(() => {
                         switch (page) {
-                            case "user":
+                            case "Users":
                                 return (
                                     <Crud
                                         apiHandler={this.api.user}
@@ -159,7 +158,7 @@ export default class Test extends ExtendedComponent<{}, State> {
                                     />
                                 );
 
-                            case "subject":
+                            case "Subjects":
                                 return (
                                     <Crud
                                         apiHandler={this.api.subject}
@@ -184,15 +183,7 @@ export default class Test extends ExtendedComponent<{}, State> {
                                     />
                                 );
 
-                            case "login":
-                                return (
-                                    <LoginScreen
-                                        api={this.api}
-                                        requestHandler={this.handleRequest}
-                                    />
-                                );
-
-                            case "dds":
+                            case "DDs":
                                 return (
                                     <Crud
                                         apiHandler={this.api.dds}
@@ -204,13 +195,15 @@ export default class Test extends ExtendedComponent<{}, State> {
                                                 ),
                                                 durability: 90,
                                                 seatNumber: 30,
-                                                practice: 2,
+                                                practice: new Lookup(
+                                                    this.api.practice,
+                                                ),
                                             } as any)
                                         }
                                     />
                                 );
 
-                            case "message":
+                            case "Messages":
                                 return (
                                     <Crud
                                         apiHandler={this.api.message}
@@ -219,7 +212,7 @@ export default class Test extends ExtendedComponent<{}, State> {
                                     />
                                 );
 
-                            case "practice":
+                            case "Practicals":
                                 return (
                                     <Crud
                                         apiHandler={this.api.practice}
@@ -241,7 +234,7 @@ export default class Test extends ExtendedComponent<{}, State> {
                                     />
                                 );
 
-                            case "group":
+                            case "Groups":
                                 return (
                                     <Crud
                                         apiHandler={this.api.group}
@@ -257,7 +250,7 @@ export default class Test extends ExtendedComponent<{}, State> {
                                 );
 
                             case "exception":
-                                <p>Some error happened.</p>;
+                                <p />;
                         }
                     })()}
                 </div>

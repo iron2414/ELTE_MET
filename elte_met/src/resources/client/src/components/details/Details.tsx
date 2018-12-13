@@ -1,6 +1,6 @@
 import * as React from "react";
 import ExtendedComponent from "../../util/ExtendedComponent";
-import "./Details.css";
+import * as css from  "./Details.css";
 import View from "./View";
 
 interface Props {
@@ -15,11 +15,11 @@ export default class Details extends ExtendedComponent<Props> {
         const { data } = this.props;
 
         return (
-            <div>
-                <button onClick={this.back}>Back</button>
+            <div className={css.root}>
+                <button onClick={this.back}>◂ Back</button>
                 {Object.entries(data).map(([k, v], i) => (
                     <p key={i}>
-                        {k}: <View data={v} />
+                        <b>{k}</b>: <View data={v} />
                     </p>
                 ))}
             </div>
